@@ -13,13 +13,13 @@
   "bbox_left": 0,
   "bbox_right": 255,
   "bbox_top": 0,
-  "bbox_bottom": 63,
+  "bbox_bottom": 95,
   "HTile": false,
   "VTile": false,
   "For3D": false,
   "DynamicTexturePage": false,
   "width": 256,
-  "height": 64,
+  "height": 96,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -68,6 +68,7 @@
     "eventStubScript": null,
   },
   "layers": [
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"150f9887-15b6-47ef-a378-e924db98b9a9","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1",},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"f0dbc036-8a76-42a3-8ace-2ac55d51fb0c","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": {
