@@ -21,6 +21,7 @@
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"398fe281-f0b7-4cea-941e-2838ca36486f","blendMode":0,"displayName":"Border","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"8a9740f8-483d-4d71-b01d-f44516683d00","blendMode":0,"displayName":"Layer 2","isLocked":false,"opacity":100.0,"visible":true,},
     {"resourceType":"GMImageFolderLayer","resourceVersion":"1.0","name":"7b58d99d-b9f8-4250-842e-197fca3ef207","blendMode":0,"displayName":"Stats","isLocked":false,"layers":[
         {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2c89118f-901b-4ef6-a8b5-0e6adfad4dfd","blendMode":0,"displayName":"Grid","isLocked":false,"opacity":100.0,"visible":true,},
         {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"6aae6c15-76a1-40f9-ac66-ad10a62b3bbd","blendMode":0,"displayName":"Speech","isLocked":false,"opacity":100.0,"visible":true,},
@@ -64,7 +65,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d70498b3-7b06-4799-9116-7894c853b179","path":"sprites/sprCard9/sprCard9.yy",},},},"Disabled":false,"id":"adb80a21-ba8b-4900-98ab-bda1f8a8d943","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d70498b3-7b06-4799-9116-7894c853b179","path":"sprites/sprCard9/sprCard9.yy",},},},"Disabled":false,"id":"ecfc80c0-62c8-408d-83ef-d49ba07e3024","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

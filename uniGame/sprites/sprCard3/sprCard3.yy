@@ -21,13 +21,6 @@
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"398fe281-f0b7-4cea-941e-2838ca36486f","blendMode":0,"displayName":"Border","isLocked":false,"opacity":100.0,"visible":true,},
-    {"resourceType":"GMImageFolderLayer","resourceVersion":"1.0","name":"7b0bcbd4-0853-41bc-ae26-0f30b6bdc047","blendMode":0,"displayName":"Stats Values","isLocked":false,"layers":[
-        {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"7586d6b4-0074-47cd-af37-5f331af2f84b","blendMode":0,"displayName":"Speech Value","isLocked":false,"opacity":100.0,"visible":true,},
-        {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a76908bc-0d0d-479b-abd3-83a13a5591d4","blendMode":0,"displayName":"Smarts Value","isLocked":false,"opacity":100.0,"visible":true,},
-        {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"37400b3a-e335-49b2-b2c5-3b19d6504bd4","blendMode":0,"displayName":"Speed Value","isLocked":false,"opacity":100.0,"visible":true,},
-        {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"074f790d-80b9-4473-8125-bbc0c48430f6","blendMode":0,"displayName":"Strength Value","isLocked":false,"opacity":100.0,"visible":true,},
-        {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"08b49f02-2b05-4620-b2fb-bdbc0b39b773","blendMode":0,"displayName":"Size Value","isLocked":false,"opacity":100.0,"visible":true,},
-      ],"opacity":100.0,"visible":true,},
     {"resourceType":"GMImageFolderLayer","resourceVersion":"1.0","name":"7b58d99d-b9f8-4250-842e-197fca3ef207","blendMode":0,"displayName":"Stats","isLocked":false,"layers":[
         {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2c89118f-901b-4ef6-a8b5-0e6adfad4dfd","blendMode":0,"displayName":"Grid","isLocked":false,"opacity":100.0,"visible":true,},
         {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"6aae6c15-76a1-40f9-ac66-ad10a62b3bbd","blendMode":0,"displayName":"Speech","isLocked":false,"opacity":100.0,"visible":true,},
@@ -36,7 +29,8 @@
         {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"4b88786a-d096-475e-bee3-a86a055a1f0c","blendMode":0,"displayName":"Size","isLocked":false,"opacity":100.0,"visible":true,},
         {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e8afc062-c3c7-4691-a307-8c48eb259635","blendMode":0,"displayName":"Strength","isLocked":false,"opacity":100.0,"visible":true,},
       ],"opacity":100.0,"visible":true,},
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"5d76baf7-a156-4e2e-b268-0dded75e80d8","blendMode":0,"displayName":"Background","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e0e860c2-4e92-4fa1-bd41-810ce7ed05a8","blendMode":0,"displayName":"Layer 1","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c63ac60b-49b8-4f0f-afb9-f95f4a539dba","blendMode":0,"displayName":"Background","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 4,
@@ -70,7 +64,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d70498b3-7b06-4799-9116-7894c853b179","path":"sprites/sprCard3/sprCard3.yy",},},},"Disabled":false,"id":"f92d4a4c-90a9-41d3-bcf9-981b6a8865f2","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d70498b3-7b06-4799-9116-7894c853b179","path":"sprites/sprCard3/sprCard3.yy",},},},"Disabled":false,"id":"895072a8-7952-4faf-ba21-ebb7552717c7","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
