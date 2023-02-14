@@ -10,8 +10,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "GUI",
-    "path": "folders/Objects/GUI.yy",
+    "name": "PlayerBtns",
+    "path": "folders/Objects/GUI/PlayerBtns.yy",
   },
   "parentObjectId": null,
   "persistent": false,
