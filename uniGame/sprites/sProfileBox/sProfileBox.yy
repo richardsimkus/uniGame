@@ -51,8 +51,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "mainMenu",
-    "path": "folders/Sprites/mainMenu.yy",
+    "name": "Clickables",
+    "path": "folders/Sprites/mainMenu/Clickables.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

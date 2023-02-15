@@ -26,8 +26,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "mainMenu",
-    "path": "folders/Sprites/mainMenu.yy",
+    "name": "Backgrounds",
+    "path": "folders/Sprites/mainMenu/Backgrounds.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
