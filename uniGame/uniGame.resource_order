@@ -33,6 +33,7 @@
     {"name":"Settings","order":5,"path":"folders/Scripts/Settings.yy",},
     {"name":"mainOptions","order":6,"path":"folders/Objects/mainMenu/mainOptions.yy",},
     {"name":"Transitions","order":1,"path":"folders/Sequences/Transitions.yy",},
+    {"name":"Health","order":6,"path":"folders/Sprites/Health.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"mClickStat","order":2,"path":"sounds/mClickStat/mClickStat.yy",},
