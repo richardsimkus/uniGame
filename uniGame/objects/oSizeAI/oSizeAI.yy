@@ -1,13 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oValue4",
-  "eventList": [],
+  "name": "oSizeAI",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Player",
-    "path": "folders/Objects/StatValues/Player.yy",
+    "name": "AI",
+    "path": "folders/Objects/StatValues/AI.yy",
   },
   "parentObjectId": null,
   "persistent": false,

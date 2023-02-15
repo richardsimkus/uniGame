@@ -17,6 +17,7 @@ function drawCards(num){
 				break;
 			}
 	}
+	
 	//build ai hand with remaining cards from deck
 	noRemaningCards = array_length(global.player_deck);
 	

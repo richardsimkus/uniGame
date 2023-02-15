@@ -1,13 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oValue3AI",
-  "eventList": [],
+  "name": "oSpeech",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "AI",
-    "path": "folders/Objects/StatValues/AI.yy",
+    "name": "Player",
+    "path": "folders/Objects/StatValues/Player.yy",
   },
   "parentObjectId": null,
   "persistent": false,

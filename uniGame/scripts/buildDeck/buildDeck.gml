@@ -16,4 +16,5 @@ function buildDeck(){
 		shuffleDeck();
 		
 		show_debug_message("Game deck {0}", global.player_deck);
+
 }
