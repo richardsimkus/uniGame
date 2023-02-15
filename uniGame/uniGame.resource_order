@@ -20,7 +20,6 @@
     {"name":"Card game","order":4,"path":"folders/Scripts/Card game.yy",},
     {"name":"GUI","order":4,"path":"folders/Objects/GUI.yy",},
     {"name":"GUI","order":4,"path":"folders/Sprites/GUI.yy",},
-    {"name":"StatValues","order":5,"path":"folders/Sprites/StatValues.yy",},
     {"name":"StatValues","order":5,"path":"folders/Objects/StatValues.yy",},
     {"name":"AI","order":10,"path":"folders/Objects/StatValues/AI.yy",},
     {"name":"Player","order":11,"path":"folders/Objects/StatValues/Player.yy",},

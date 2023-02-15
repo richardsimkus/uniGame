@@ -33,7 +33,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Card game","folderPath":"folders/Scripts/Card game.yy","order":0,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"GUI","folderPath":"folders/Objects/GUI.yy","order":0,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"GUI","folderPath":"folders/Sprites/GUI.yy","order":0,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"StatValues","folderPath":"folders/Sprites/StatValues.yy","order":0,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"StatValues","folderPath":"folders/Objects/StatValues.yy","order":0,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"AI","folderPath":"folders/Objects/StatValues/AI.yy","order":0,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Player","folderPath":"folders/Objects/StatValues/Player.yy","order":0,},
@@ -55,7 +54,6 @@
   },
   "resources": [
     {"id":{"name":"mClickStat","path":"sounds/mClickStat/mClickStat.yy",},"order":0,},
-    {"id":{"name":"sStatSpace","path":"sprites/sStatSpace/sStatSpace.yy",},"order":0,},
     {"id":{"name":"sprCard3","path":"sprites/sprCard3/sprCard3.yy",},"order":0,},
     {"id":{"name":"sprCard8","path":"sprites/sprCard8/sprCard8.yy",},"order":0,},
     {"id":{"name":"oPlayerCardArea","path":"objects/oPlayerCardArea/oPlayerCardArea.yy",},"order":0,},

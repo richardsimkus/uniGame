@@ -27,10 +27,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "sStatSpace",
-    "path": "sprites/sStatSpace/sStatSpace.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }
