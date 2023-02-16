@@ -3,21 +3,13 @@
 function dealCards(){
 	//shuffleDeck();
 	for (card = 0; card < array_length(global.deck); card++;){
-		if (card % 2 == 0){
+		if (card < 5){
 			array_push(global.playerHand,global.deck[card]);
 		} else {
 			array_push(global.aiHand,global.deck[card]);
 		}
 	}
-	
-	for (card = 0; card < array_length(global.playerHand); card++;){
-		instance_create_layer(880,700,"playerCards",global.playerHand[card]);
-	}
-}
-
-function redrawHand(){
-	
-	for (card = 0; card < array_length(global.playerHand); card++;){
-		instance_create_layer(880,700,"playerCards",global.playerHand[card]);
-	}
+	show_debug_message("AI Hand {0}", global.aiHand);
+	instance_create_layer(700,700,"topPlayerCard", global.playerHand[0]);
+	instance_create_layer(1000,700,"aiCard", global.aiHand[0]);
 }

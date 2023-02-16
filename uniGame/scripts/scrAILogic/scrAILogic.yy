@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "drawCards",
+  "name": "scrAILogic",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
