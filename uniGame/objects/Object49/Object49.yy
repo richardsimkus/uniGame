@@ -1,15 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oSmartsAI",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,},
-  ],
+  "name": "Object49",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "AI",
-    "path": "folders/Objects/StatValues/AI.yy",
+    "name": "uniGame",
+    "path": "uniGame.yyp",
   },
   "parentObjectId": null,
   "persistent": false,

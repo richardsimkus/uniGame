@@ -27,7 +27,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "sprStatsAlignment",
+    "path": "sprites/sprStatsAlignment/sprStatsAlignment.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }
