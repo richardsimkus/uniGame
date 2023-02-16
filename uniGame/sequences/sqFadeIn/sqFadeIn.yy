@@ -40,7 +40,7 @@
   "timeUnits": 1,
   "tracks": [
     {"resourceType":"GMGraphicTrack","resourceVersion":"1.0","name":"sPixel","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<AssetSpriteKeyframe>","resourceVersion":"1.0","Keyframes":[
-          {"resourceType":"Keyframe<AssetSpriteKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"AssetSpriteKeyframe","resourceVersion":"1.0","Id":{"name":"sPixel","path":"sprites/sPixel/sPixel.yy",},},},"Disabled":false,"id":"617f101d-ed4c-4d30-ac57-65593c39c0e7","IsCreationKey":false,"Key":0.0,"Length":60.0,"Stretch":false,},
+          {"resourceType":"Keyframe<AssetSpriteKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"AssetSpriteKeyframe","resourceVersion":"1.0","Id":null,},},"Disabled":false,"id":"617f101d-ed4c-4d30-ac57-65593c39c0e7","IsCreationKey":false,"Key":0.0,"Length":60.0,"Stretch":false,},
         ],},"modifiers":[],"trackColour":4291447026,"tracks":[
         {"resourceType":"GMColourTrack","resourceVersion":"1.0","name":"blend_multiply","builtinName":10,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<ColourKeyframe>","resourceVersion":"1.0","Keyframes":[
               {"resourceType":"Keyframe<ColourKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"ColourKeyframe","resourceVersion":"1.0","AnimCurveId":null,"Colour":4278190080,"EmbeddedAnimCurve":null,},},"Disabled":false,"id":"ff287dd2-4c1b-4a5f-a63a-130f29ece9eb","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
