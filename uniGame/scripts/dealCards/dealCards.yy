@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "drawCards",
+  "name": "dealCards",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

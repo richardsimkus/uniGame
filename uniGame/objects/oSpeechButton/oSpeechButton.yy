@@ -1,11 +1,12 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oBtn3",
+  "name": "oSpeechButton",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":10,"eventType":6,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":11,"eventType":6,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -30,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sBtn3",
-    "path": "sprites/sBtn3/sBtn3.yy",
+    "name": "sBtn5",
+    "path": "sprites/sBtn5/sBtn5.yy",
   },
   "spriteMaskId": null,
   "visible": true,
