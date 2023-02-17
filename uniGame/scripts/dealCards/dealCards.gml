@@ -11,5 +11,5 @@ function dealCards(){
 	}
 	show_debug_message("AI Hand {0}", global.aiHand);
 	instance_create_layer(448,224,"playerCard", global.playerHand[0]);
-	instance_create_layer(1152,224,"aiCard", global.aiHand[0]);
+	instance_create_layer(1120,224,"aiCard", global.aiHand[0]);
 }

@@ -9,4 +9,5 @@ audio_play_sound(mClickMenu, 1000, false);
 var target = rWorldMap;
 if (room == rWorldMap) target = rLevel1;
 
+
 TransitionStart(target, sqFadeOut, sqFadeIn);
