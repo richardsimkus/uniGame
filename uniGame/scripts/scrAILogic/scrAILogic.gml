@@ -1,6 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function aiPlayTurn(){
+	
 	stats = ["size_stat", "smarts_stat", "speech_stat", "speed_stat", "strength_stat"];
 	
 	cardStats = {
@@ -27,6 +28,6 @@ function aiPlayTurn(){
 	}
 	
 	
-	
+	global.aiThinkTimer = room_speed * 4;
 	chooseStat(false,chosenStat)
 }

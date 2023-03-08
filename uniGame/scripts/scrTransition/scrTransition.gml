@@ -1,6 +1,5 @@
 //Script to run the Transitions
 
-global.midTransition = false;
 global.roomTarget = -1;
 
 
@@ -16,17 +15,11 @@ function TransitionPlaceSequence(_type)
 //called when going from one room to another using any combo of sequences
 function TransitionStart(_roomTarget, _typeOut, _typeIn)
 {
-	if (!global.midTransition)
-	{
-		global.midTransition = true;
-		global.roomTarget = _roomTarget;
-		TransitionPlaceSequence(_typeOut);
-		layer_set_target_room(_roomTarget);
-		TransitionPlaceSequence(_typeIn);
-		layer_reset_target_room();
-		return true;
-	}
-	else return false;
+	global.roomTarget = _roomTarget;
+	TransitionPlaceSequence(_typeOut);
+	layer_set_target_room(_roomTarget);
+	TransitionPlaceSequence(_typeIn);
+	layer_reset_target_room();
 }
 
 
@@ -41,5 +34,4 @@ function TransitionChangeRoom()
 function TransitionFinished()
 {
 	layer_sequence_destroy(self.elementID);
-	global.midTransition = false;
 }

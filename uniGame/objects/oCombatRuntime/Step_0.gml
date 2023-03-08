@@ -25,6 +25,21 @@ if (array_length(global.playerHand) == 0){
 	show_debug_message("AI WINS THE GAME")
 }
 
+if (global.playerTurn) {
+	with (oTurn) {
+		image_index = 0;	
+	}
+}	else {
+	with (oTurn) {
+		image_index = 1;	
+	}
+}
+
 if (!global.playerTurn && global.inCombat == true){
-	aiPlayTurn();
+	
+	global.aiThinkTimer -= 1;
+	
+	if (global.aiThinkTimer == 0){
+		aiPlayTurn();
+	}
 }

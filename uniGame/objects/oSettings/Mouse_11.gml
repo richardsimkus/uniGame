@@ -1,2 +1,2 @@
-sprite_index = sSettings;
-image_index = 0;
+//sprite_index = sSettings;
+//image_index = 0;

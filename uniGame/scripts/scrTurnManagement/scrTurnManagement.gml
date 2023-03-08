@@ -20,7 +20,7 @@ function chooseStat(player, stat){
 		if (instance_exists(global.aiHand[0])){
 			instance_destroy(global.aiHand[0]);
 		}
-	if (player) {
+	if (player && global.playerTurn) {
 
 		if (aiNum > playerStatNum){
 			
@@ -38,13 +38,13 @@ function chooseStat(player, stat){
 	if (!player) {
 		
 		if (aiNum > playerStatNum){
-			
-		show_message("AI WINS, AI HAD " + string(aiNum) + " and player had " + string(playerStatNum));
+		
+		show_message("AI PICKED " + string(stat) + ". \n" + "AI WINS, AI HAD " + string(aiNum) + " and player had " + string(playerStatNum));
 		addCard(global.aiHand,global.playerHand);
 		addCard(global.aiHand,global.aiHand);
 		
 		} else {
-		show_message("PLAYER WINS, PLAYER HAD " + string(playerStatNum) + " and AI had " + string(aiNum));
+		show_message("AI PICKED " + string(stat) + ". \n" +"PLAYER WINS, PLAYER HAD " + string(playerStatNum) + " and AI had " + string(aiNum));
 		addCard(global.playerHand,global.aiHand);
 		addCard(global.playerHand,global.playerHand);
 		}
@@ -57,7 +57,7 @@ function chooseStat(player, stat){
 	show_debug_message("aiHandLength {0}",array_length(global.aiHand));
 	
 	if (array_length(global.playerHand) > 0){
-		instance_create_layer(448,224,"playerCard", global.playerHand[0]);
+		instance_create_layer(808,224,"playerCard", global.playerHand[0], {image_xscale: -1});
 	};
 	
 	if (array_length(global.aiHand) > 0){

@@ -35,6 +35,7 @@
     {"name":"inst_4DE91288","path":"rooms/rLevel1/rLevel1.yy",},
     {"name":"inst_588786B5","path":"rooms/rLevel1/rLevel1.yy",},
     {"name":"inst_225F2056","path":"rooms/rLevel1/rLevel1.yy",},
+    {"name":"inst_6D07FDBD","path":"rooms/rLevel1/rLevel1.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -64,6 +65,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_69284571","colour":4294967295,"frozen":true,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oSmartsAI","path":"objects/oSmartsAI/oSmartsAI.yy",},"properties":[],"rotation":0.0,"scaleX":1.236842,"scaleY":0.7886686,"x":1406.0,"y":637.4419,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_38612E01","colour":4294967295,"frozen":true,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oSpeechAI","path":"objects/oSpeechAI/oSpeechAI.yy",},"properties":[],"rotation":0.0,"scaleX":1.236842,"scaleY":0.7886686,"x":1406.0,"y":665.04517,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4DE91288","colour":4294967295,"frozen":true,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oSizeAI","path":"objects/oSizeAI/oSizeAI.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":0.9858357,"x":1406.0,"y":532.94336,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6D07FDBD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oTurn","path":"objects/oTurn/oTurn.yy",},"properties":[],"rotation":0.0,"scaleX":1.625,"scaleY":1.6666666,"x":768.0,"y":64.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Cards","depth":-699,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_26FA043","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oCombatRuntime","path":"objects/oCombatRuntime/oCombatRuntime.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
