@@ -33,5 +33,5 @@
     "path": "sprites/sLevel1/sLevel1.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }
