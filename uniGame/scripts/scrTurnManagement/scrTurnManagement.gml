@@ -57,10 +57,10 @@ function chooseStat(player, stat){
 	show_debug_message("aiHandLength {0}",array_length(global.aiHand));
 	
 	if (array_length(global.playerHand) > 0){
-		instance_create_layer(808,224,"playerCard", global.playerHand[0], {image_xscale: -1});
+		instance_create_layer(427,176,"playerCard", global.playerHand[0]);
 	};
 	
 	if (array_length(global.aiHand) > 0){
-		instance_create_layer(1120,224,"aiCard", global.aiHand[0]);
+		instance_create_layer(1131,176,"aiCard", global.aiHand[0]);
 	};
 }
