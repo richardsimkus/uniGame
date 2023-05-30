@@ -1,4 +1,8 @@
-room_speed = 60; //60fps
+/// Create Event (oCombatRuntime)
+room_speed = 60; // 60fps
+
+global.playerLives = 6;
+global.aiLives = 6;
 
 global.deck = []; 
 global.playerHand = [];
@@ -7,6 +11,6 @@ global.inCombat = true;
 global.playerTurn = true;
 global.aiThinkTimer = room_speed * 4;
 
-buildDeck(); //calls script to populate the above deck
+buildDeck(); // Calls script to populate the deck
 dealCards();
-//createCombatUI();
+

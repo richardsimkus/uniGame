@@ -6,7 +6,7 @@
 //	layer_set_visible("playerButtons",false);	
 //}
 
-if (array_length(global.aiHand) == 0){
+/*if (array_length(global.aiHand) == 0){
 	layer_set_visible("Buttons",false);	
 	global.inCombat = false;
 	with (oPopup){
@@ -23,23 +23,14 @@ if (array_length(global.playerHand) == 0){
 		image_index = 2;
 	}
 	show_debug_message("AI WINS THE GAME")
-}
+}*/
 
-if (global.playerTurn) {
-	with (oTurn) {
-		image_index = 0;	
-	}
-}	else {
-	with (oTurn) {
-		image_index = 1;	
-	}
-}
+/// Step Event (oCombatRuntime)
 
 if (!global.playerTurn && global.inCombat == true){
-	
-	global.aiThinkTimer -= 1;
-	
-	if (global.aiThinkTimer == 0){
-		aiPlayTurn();
-	}
+    global.aiThinkTimer -= 1;
+    
+    if (global.aiThinkTimer == 0){
+        aiPlayTurn();
+    }
 }
