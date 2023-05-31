@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oEnemyCardArea",
+  "name": "oPlayerHealth",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sCardSpace",
-    "path": "sprites/sCardSpace/sCardSpace.yy",
+    "name": "sHealth",
+    "path": "sprites/sHealth/sHealth.yy",
   },
   "spriteMaskId": null,
   "visible": true,
