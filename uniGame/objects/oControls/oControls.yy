@@ -1,13 +1,16 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oEnemyCardArea",
-  "eventList": [],
+  "name": "oControls",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "In game",
-    "path": "folders/Objects/GUI/In game.yy",
+    "name": "MapButtons",
+    "path": "folders/Objects/MapButtons.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -26,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sCardSpace",
-    "path": "sprites/sCardSpace/sCardSpace.yy",
+    "name": "sControls",
+    "path": "sprites/sControls/sControls.yy",
   },
   "spriteMaskId": null,
   "visible": true,

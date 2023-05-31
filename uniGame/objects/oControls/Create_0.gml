@@ -1,0 +1,7 @@
+/// @description Initialise
+
+sprite_index = sControls;
+image_index = 1;
+image_speed = 0;
+image_xscale = 2;
+image_yscale = 2;
