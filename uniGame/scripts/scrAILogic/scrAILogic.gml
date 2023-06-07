@@ -28,6 +28,6 @@ function aiPlayTurn(){
 	}
 	
 	
-	global.aiThinkTimer = room_speed * 4;
+	global.aiThinkTimer = room_speed * 2;
 	chooseStat(false,chosenStat)
 }

@@ -1,2 +1,3 @@
-currentPlayer = "player";
-chooseStat(true,"speed_stat");
+if (global.playerTurn) {
+	chooseStat(true,"speed_stat");
+}

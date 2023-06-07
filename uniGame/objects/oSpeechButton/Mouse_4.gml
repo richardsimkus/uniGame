@@ -1,2 +1,3 @@
-currentPlayer = "player";
-chooseStat(true,"speech_stat");
+if (global.playerTurn) {
+	chooseStat(true,"speech_stat");
+}

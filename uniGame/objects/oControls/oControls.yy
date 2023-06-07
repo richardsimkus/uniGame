@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "MapButtons",
-    "path": "folders/Objects/MapButtons.yy",
+    "name": "map",
+    "path": "folders/Objects/map.yy",
   },
   "parentObjectId": null,
   "persistent": false,

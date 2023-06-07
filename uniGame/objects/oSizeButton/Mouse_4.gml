@@ -1,2 +1,3 @@
-currentPlayer = "player";
-chooseStat(true,"size_stat");
+if (global.playerTurn) {
+	chooseStat(true,"size_stat");
+}
