@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sHealth",
-    "path": "sprites/sHealth/sHealth.yy",
+    "name": "sAIHealth",
+    "path": "sprites/sAIHealth/sAIHealth.yy",
   },
   "spriteMaskId": null,
   "visible": true,

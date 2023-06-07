@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sHealth",
-    "path": "sprites/sHealth/sHealth.yy",
+    "name": "sPlayerHealth",
+    "path": "sprites/sPlayerHealth/sPlayerHealth.yy",
   },
   "spriteMaskId": null,
   "visible": true,
