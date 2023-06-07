@@ -9,6 +9,7 @@
     {"name":"cards","order":1,"path":"folders/Objects/cards.yy",},
     {"name":"GUI","order":2,"path":"folders/Objects/GUI.yy",},
     {"name":"AIbtns","order":8,"path":"folders/Objects/GUI/AIbtns.yy",},
+    {"name":"In game","order":16,"path":"folders/Objects/GUI/In game.yy",},
     {"name":"PlayerBtns","order":9,"path":"folders/Objects/GUI/PlayerBtns.yy",},
     {"name":"mainOptions","order":6,"path":"folders/Objects/mainMenu/mainOptions.yy",},
     {"name":"settings","order":5,"path":"folders/Objects/mainMenu/settings.yy",},
@@ -38,7 +39,6 @@
     {"name":"Map","order":5,"path":"folders/Sprites/Map.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"In game","order":16,"path":"folders/Objects/GUI/In game.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"mClickStat","order":2,"path":"sounds/mClickStat/mClickStat.yy",},
@@ -123,6 +123,7 @@
     {"name":"sprCard2","order":12,"path":"sprites/sprCard2/sprCard2.yy",},
     {"name":"oCard9","order":8,"path":"objects/oCard9/oCard9.yy",},
     {"name":"sCardBack","order":22,"path":"sprites/sCardBack/sCardBack.yy",},
+    {"name":"sAIHealth","order":1,"path":"sprites/sAIHealth/sAIHealth.yy",},
     {"name":"sControls","order":13,"path":"sprites/sControls/sControls.yy",},
     {"name":"oCard8","order":7,"path":"objects/oCard8/oCard8.yy",},
     {"name":"Object49","order":17,"path":"objects/Object49/Object49.yy",},

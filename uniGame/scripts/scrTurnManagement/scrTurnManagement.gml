@@ -67,13 +67,8 @@
 
 
 function chooseStat(player, stat) {
-    if (!global.playerLives) {
-        global.playerLives = 6; // Initialize player lives
-    }
-    if (!global.aiLives) {
-        global.aiLives = 6; // Initialize AI lives
-    }
-
+   
+	
  if (array_length(global.playerHand) > 0) {
         var playerStatNum = variable_instance_get(global.playerHand[0], stat);
         instance_destroy(global.playerHand[0]);
@@ -90,10 +85,7 @@ function chooseStat(player, stat) {
         return;
     }
 
-    var currentPlayer;
-
     if (player && global.playerTurn) {
-        currentPlayer = "player";
         if (playerStatNum > aiNum) {
             global.aiLives -= 1;
 			addCard(global.aiHand,global.playerHand);
@@ -101,14 +93,13 @@ function chooseStat(player, stat) {
 
         } else {
             global.playerLives -= 1;
-            currentPlayer = "ai";
 			addCard(global.playerHand,global.aiHand);
 			addCard(global.playerHand,global.playerHand);
         }
     }
 
     if (!player) {
-        currentPlayer = "ai";
+
         if (aiNum > playerStatNum) {
             global.playerLives -= 1;
 			addCard(global.aiHand,global.playerHand);
@@ -116,21 +107,14 @@ function chooseStat(player, stat) {
 
         } else {
             global.aiLives -= 1;
-            currentPlayer = "player";
+
 			addCard(global.playerHand,global.aiHand);
 			addCard(global.playerHand,global.playerHand);
         }
     }
 
-    global.playerTurn = (currentPlayer == "player");
+    global.playerTurn = !player;
 
-    // Update turn prompt
-    var turnPrompt = oTurnPrompt;
-        if (global.playerTurn) {
-            turnPrompt.image_index = 0; // Set sprite frame index to represent player's turn
-        } else {
-            turnPrompt.image_index = 1; // Set sprite frame index to represent AI's turn
-        }
     
 
     show_debug_message("playerHandLength {0}", array_length(global.playerHand));
@@ -145,36 +129,8 @@ function chooseStat(player, stat) {
     }
 
     // Update health sprites
-    var playerHealthSprite = instance_find(oPlayerHealth, 0);
-    var aiHealthSprite = instance_find(oAIHealth, 0);
+    
+	audio_play_sound(mExplosion, 1000, false);
 
-    if (instance_exists(playerHealthSprite)) {
-        playerHealthSprite.image_index = clamp(6 - global.playerLives, 0, 6);
-		audio_play_sound(mExplosion, 1000, false);
-    }
-
-    if (instance_exists(aiHealthSprite)) {
-        aiHealthSprite.image_index = clamp(6 - global.aiLives, 0, 6);
-		audio_play_sound(mExplosion, 1000, false);
-    }
-
-    // Check win/lose conditions
-if (global.playerLives <= 0) {
-    // Player loses
-	layer_set_visible("buttons",false);
-	layer_set_visible("AIStatLevel", false);
-    var popup = oPopup;
-    if (popup != noone) {
-        popup.image_index = 2;
-    }
-} else if (global.aiLives <= 0) {
-    // AI loses
-	layer_set_visible("buttons",false);
-	layer_set_visible("AIStatLevel", false);
-    var popup = oPopup;
-    if (popup != noone) {
-        popup.image_index = 1;
-    }
-}
 
 }
