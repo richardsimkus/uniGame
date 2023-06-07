@@ -10,6 +10,7 @@
     {"name":"GUI","order":2,"path":"folders/Objects/GUI.yy",},
     {"name":"AIbtns","order":8,"path":"folders/Objects/GUI/AIbtns.yy",},
     {"name":"In game","order":16,"path":"folders/Objects/GUI/In game.yy",},
+    {"name":"Rewards","order":5,"path":"folders/Objects/GUI/In game/Rewards.yy",},
     {"name":"PlayerBtns","order":9,"path":"folders/Objects/GUI/PlayerBtns.yy",},
     {"name":"mainOptions","order":6,"path":"folders/Objects/mainMenu/mainOptions.yy",},
     {"name":"settings","order":5,"path":"folders/Objects/mainMenu/settings.yy",},
@@ -39,7 +40,6 @@
     {"name":"Map","order":5,"path":"folders/Sprites/Map.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"Rewards","order":5,"path":"folders/Objects/GUI/In game/Rewards.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"mClickStat","order":2,"path":"sounds/mClickStat/mClickStat.yy",},

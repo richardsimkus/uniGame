@@ -44,7 +44,7 @@ if (global.playerTurn) {
 // Check win/lose conditions
 
 
-if (global.playerLives <= 0 || global.playerHand == 0) {
+if (global.playerLives <= 0 || array_length(global.playerHand) == 0) {
     // Player loses
 	layer_set_visible("buttons",false);
 	layer_set_visible("AIStatLevel", false);
@@ -53,7 +53,7 @@ if (global.playerLives <= 0 || global.playerHand == 0) {
         oPopup.image_index = 2;
     }
 	global.inCombat = false;
-} else if (global.aiLives <= 0 || global.aiHand == 0) {
+} else if (global.aiLives <= 0 || array_length(global.aiHand) == 0) {
     // AI loses
 	layer_set_visible("buttons",false);
 	layer_set_visible("AIStatLevel", false);
