@@ -13,7 +13,7 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5298caf4-c77d-47ba-b188-a62ab2062a10",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d4d3b4d3-a4d1-465b-b673-f48c2f579983",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c1d2a8a8-f609-45bd-810a-66d48d6375f5",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"89f0e8d5-6013-42a0-b295-d841b0037cf6",},
   ],
@@ -58,7 +58,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"5298caf4-c77d-47ba-b188-a62ab2062a10","path":"sprites/sPopUp/sPopUp.yy",},},},"Disabled":false,"id":"d854ed88-cc7c-4895-91a5-7b1d183b2cef","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d4d3b4d3-a4d1-465b-b673-f48c2f579983","path":"sprites/sPopUp/sPopUp.yy",},},},"Disabled":false,"id":"bdf286d8-1912-4eca-a06f-e999d267699e","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c1d2a8a8-f609-45bd-810a-66d48d6375f5","path":"sprites/sPopUp/sPopUp.yy",},},},"Disabled":false,"id":"9fdfab5a-ef11-40eb-8431-92d629153fa2","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"89f0e8d5-6013-42a0-b295-d841b0037cf6","path":"sprites/sPopUp/sPopUp.yy",},},},"Disabled":false,"id":"5d6cb526-a611-49d2-b31f-359c36f6d433","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},

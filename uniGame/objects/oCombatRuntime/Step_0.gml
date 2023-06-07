@@ -52,6 +52,7 @@ if (global.playerLives <= 0 || global.playerHand == 0) {
     if (oPopup != noone) {
         oPopup.image_index = 2;
     }
+	global.inCombat = false;
 } else if (global.aiLives <= 0 || global.aiHand == 0) {
     // AI loses
 	layer_set_visible("buttons",false);
@@ -60,14 +61,22 @@ if (global.playerLives <= 0 || global.playerHand == 0) {
     if (oPopup != noone) {
         oPopup.image_index = 1;
     }
+	instance_create_depth(736,480,-100,oMoneyReward);
+	instance_create_depth(1088,480,-100,oRepairReward);
+	global.inCombat = false;
 }
 
-playerHealthSprite = instance_find(oPlayerHealth, 0);
+if (!global.inCombat) {
+	layer_destroy_instances("Buttons")
+	if (!increasedMapLevel){
+		increasedMapLevel = true;
+		global.mapLevel += 1;
+	}
+}
+
+
     aiHealthSprite = instance_find(oAIHealth, 0);
 
-    if (instance_exists(playerHealthSprite)) {
-        playerHealthSprite.image_index = clamp(global.playerLives, 0, 12);
-    }
 
     if (instance_exists(aiHealthSprite)) {
         aiHealthSprite.image_index = clamp(global.aiLives, 0, 6);

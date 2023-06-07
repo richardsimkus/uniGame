@@ -85,33 +85,19 @@ function chooseStat(player, stat) {
         return;
     }
 
-    if (player && global.playerTurn) {
-        if (playerStatNum > aiNum) {
-            global.aiLives -= 1;
-			addCard(global.aiHand,global.playerHand);
-			addCard(global.aiHand,global.aiHand);
+    
+    if (playerStatNum > aiNum) {
+        global.aiLives -= 1;
+		addCard(global.playerHand, global.aiHand);
+		addCard(global.playerHand, global.playerHand);
 
-        } else {
-            global.playerLives -= 1;
-			addCard(global.playerHand,global.aiHand);
-			addCard(global.playerHand,global.playerHand);
-        }
+    } else {
+        global.playerLives -= 1;
+		addCard(global.aiHand, global.playerHand);
+		addCard(global.aiHand,global.aiHand);
     }
-
-    if (!player) {
-
-        if (aiNum > playerStatNum) {
-            global.playerLives -= 1;
-			addCard(global.aiHand,global.playerHand);
-			addCard(global.aiHand,global.aiHand);
-
-        } else {
-            global.aiLives -= 1;
-
-			addCard(global.playerHand,global.aiHand);
-			addCard(global.playerHand,global.playerHand);
-        }
-    }
+    
+    
 
     global.playerTurn = !player;
 
@@ -127,8 +113,6 @@ function chooseStat(player, stat) {
     if (array_length(global.aiHand) > 0) {
         instance_create_layer(1131, 176, "aiCard", global.aiHand[0]);
     }
-
-    // Update health sprites
     
 	audio_play_sound(mExplosion, 1000, false);
 
