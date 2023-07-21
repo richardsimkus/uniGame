@@ -58,7 +58,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.4.0.84",
+    "IDEVersion": "2023.6.0.89",
   },
   "resources": [
     {"id":{"name":"mClickStat","path":"sounds/mClickStat/mClickStat.yy",},},
@@ -80,6 +80,7 @@
     {"id":{"name":"sPopUp","path":"sprites/sPopUp/sPopUp.yy",},},
     {"id":{"name":"oNewGame","path":"objects/oNewGame/oNewGame.yy",},},
     {"id":{"name":"sprCard10","path":"sprites/sprCard10/sprCard10.yy",},},
+    {"id":{"name":"sShop","path":"sprites/sShop/sShop.yy",},},
     {"id":{"name":"oStrength","path":"objects/oStrength/oStrength.yy",},},
     {"id":{"name":"oReturnToMenu","path":"objects/oReturnToMenu/oReturnToMenu.yy",},},
     {"id":{"name":"oMusic","path":"objects/oMusic/oMusic.yy",},},
@@ -109,6 +110,7 @@
     {"id":{"name":"sLevel5","path":"sprites/sLevel5/sLevel5.yy",},},
     {"id":{"name":"sWorldMap","path":"sprites/sWorldMap/sWorldMap.yy",},},
     {"id":{"name":"oBtn2AI","path":"objects/oBtn2AI/oBtn2AI.yy",},},
+    {"id":{"name":"sShopIcon","path":"sprites/sShopIcon/sShopIcon.yy",},},
     {"id":{"name":"sprCard9","path":"sprites/sprCard9/sprCard9.yy",},},
     {"id":{"name":"oControls","path":"objects/oControls/oControls.yy",},},
     {"id":{"name":"oCombatRuntime","path":"objects/oCombatRuntime/oCombatRuntime.yy",},},
@@ -139,6 +141,7 @@
     {"id":{"name":"oAIHealth","path":"objects/oAIHealth/oAIHealth.yy",},},
     {"id":{"name":"oRepairReward","path":"objects/oRepairReward/oRepairReward.yy",},},
     {"id":{"name":"oReturnToMap","path":"objects/oReturnToMap/oReturnToMap.yy",},},
+    {"id":{"name":"rShop","path":"rooms/rShop/rShop.yy",},},
     {"id":{"name":"oCardback","path":"objects/oCardback/oCardback.yy",},},
     {"id":{"name":"oCard4","path":"objects/oCard4/oCard4.yy",},},
     {"id":{"name":"scrAILogic","path":"scripts/scrAILogic/scrAILogic.yy",},},
@@ -177,6 +180,7 @@
     {"id":{"name":"sExit","path":"sprites/sExit/sExit.yy",},},
     {"id":{"name":"acMoveRightMap","path":"animcurves/acMoveRightMap/acMoveRightMap.yy",},},
     {"id":{"name":"sContinue","path":"sprites/sContinue/sContinue.yy",},},
+    {"id":{"name":"oEnterShop","path":"objects/oEnterShop/oEnterShop.yy",},},
     {"id":{"name":"sTurn","path":"sprites/sTurn/sTurn.yy",},},
     {"id":{"name":"sCardSpace","path":"sprites/sCardSpace/sCardSpace.yy",},},
     {"id":{"name":"sPlayerHealth","path":"sprites/sPlayerHealth/sPlayerHealth.yy",},},
@@ -205,6 +209,7 @@
     {"roomId":{"name":"rSettingsMenu","path":"rooms/rSettingsMenu/rSettingsMenu.yy",},},
     {"roomId":{"name":"rCreditScreen","path":"rooms/rCreditScreen/rCreditScreen.yy",},},
     {"roomId":{"name":"rLevel2","path":"rooms/rLevel2/rLevel2.yy",},},
+    {"roomId":{"name":"rShop","path":"rooms/rShop/rShop.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
