@@ -4,7 +4,7 @@ room_speed = 60; // 60fps
 
 global.playerLives = 12;
 global.playerMoney = 100;
-global.deck = []; 
+global.deck = [];
 global.playerHand = [];
 global.aiHand = [];
 global.inCombat = false;

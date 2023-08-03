@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-size_stat = 49;
-strength_stat = 17;
-speed_stat = 23;
-smarts_stat = 88;
-speech_stat = 12;
+size_stat = 25;
+strength_stat = 39;
+speed_stat = 54;
+smarts_stat = 35;
+speech_stat = 47;

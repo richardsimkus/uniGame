@@ -145,7 +145,6 @@
     {"id":{"name":"oCard6","path":"objects/oCard6/oCard6.yy",},},
     {"id":{"name":"scrTransition","path":"scripts/scrTransition/scrTransition.yy",},},
     {"id":{"name":"oHowToPlay","path":"objects/oHowToPlay/oHowToPlay.yy",},},
-    {"id":{"name":"oAIHealth","path":"objects/oAIHealth/oAIHealth.yy",},},
     {"id":{"name":"oRepairReward","path":"objects/oRepairReward/oRepairReward.yy",},},
     {"id":{"name":"oReturnToMap","path":"objects/oReturnToMap/oReturnToMap.yy",},},
     {"id":{"name":"rShop","path":"rooms/rShop/rShop.yy",},},

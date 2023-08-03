@@ -2,7 +2,7 @@
 
 global.aiLives = 6;
 
-global.deck = []; 
+global.deck = [];
 global.playerHand = [];
 global.aiHand = [];
 global.inCombat = true;

@@ -3,21 +3,21 @@
 //if (global.playerTurn) {
 //	layer_set_visible("playerButtons",true);
 //} else {
-//	layer_set_visible("playerButtons",false);	
+//	layer_set_visible("playerButtons",false);
 //}
 
 /*if (array_length(global.aiHand) == 0){
-	layer_set_visible("Buttons",false);	
+	layer_set_visible("Buttons",false);
 	global.inCombat = false;
 	with (oPopup){
-		
+
 		image_index = 1;
 	}
 	show_debug_message("PLAYER WINS THE GAME")
 }
 
 if (array_length(global.playerHand) == 0){
-	layer_set_visible("Buttons",false);	
+	layer_set_visible("Buttons",false);
 	global.inCombat = false;
 	with (oPopup){
 		image_index = 2;
@@ -29,7 +29,7 @@ if (array_length(global.playerHand) == 0){
 
 if (!global.playerTurn && global.inCombat == true){
     global.aiThinkTimer -= 1;
-    
+
     if (global.aiThinkTimer == 0){
         aiPlayTurn();
     }
@@ -48,7 +48,7 @@ if (global.playerLives <= 0 || array_length(global.playerHand) == 0) {
     // Player loses
 	layer_set_visible("buttons",false);
 	layer_set_visible("AIStatLevel", false);
-    
+
     if (oPopup != noone) {
         oPopup.image_index = 2;
     }
