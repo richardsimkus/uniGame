@@ -3,8 +3,8 @@
 
 //card stats
 
-size_stat = 26;
-strength_stat = 32;
-speed_stat = 51;
-smarts_stat = 79;
-speech_stat = 60;
+size_stat = 41;
+strength_stat = 37;
+speed_stat = 50;
+smarts_stat = 32;
+speech_stat = 40;

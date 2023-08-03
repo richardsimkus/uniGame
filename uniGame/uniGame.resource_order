@@ -90,6 +90,7 @@
     {"name":"oEnemyCardArea","order":1,"path":"objects/oEnemyCardArea/oEnemyCardArea.yy",},
     {"name":"sAbort","order":7,"path":"sprites/sAbort/sAbort.yy",},
     {"name":"sProfileBox","order":2,"path":"sprites/sProfileBox/sProfileBox.yy",},
+    {"name":"Object62","order":6,"path":"objects/Object62/Object62.yy",},
     {"name":"scrTurnManagement","order":6,"path":"scripts/scrTurnManagement/scrTurnManagement.yy",},
     {"name":"rLevel2","order":1,"path":"rooms/rLevel2/rLevel2.yy",},
     {"name":"oPlayerHealth","order":3,"path":"objects/oPlayerHealth/oPlayerHealth.yy",},

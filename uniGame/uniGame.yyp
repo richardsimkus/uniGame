@@ -58,7 +58,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.4.0.84",
+    "IDEVersion": "2023.6.0.89",
   },
   "resources": [
     {"id":{"name":"mClickStat","path":"sounds/mClickStat/mClickStat.yy",},},
@@ -118,6 +118,7 @@
     {"id":{"name":"sAbort","path":"sprites/sAbort/sAbort.yy",},},
     {"id":{"name":"oSizeButton","path":"objects/oSizeButton/oSizeButton.yy",},},
     {"id":{"name":"sProfileBox","path":"sprites/sProfileBox/sProfileBox.yy",},},
+    {"id":{"name":"Object62","path":"objects/Object62/Object62.yy",},},
     {"id":{"name":"scrTurnManagement","path":"scripts/scrTurnManagement/scrTurnManagement.yy",},},
     {"id":{"name":"rLevel2","path":"rooms/rLevel2/rLevel2.yy",},},
     {"id":{"name":"oPlayerHealth","path":"objects/oPlayerHealth/oPlayerHealth.yy",},},

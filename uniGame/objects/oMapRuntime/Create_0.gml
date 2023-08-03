@@ -11,3 +11,4 @@ global.inCombat = false;
 global.playerTurn = false;
 
 global.mapLevel = 1;
+

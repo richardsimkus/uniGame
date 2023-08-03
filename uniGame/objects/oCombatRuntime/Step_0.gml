@@ -43,31 +43,35 @@ if (global.playerTurn) {
 
 // Check win/lose conditions
 
-
-if (global.playerLives <= 0 || array_length(global.playerHand) == 0) {
-    // Player loses
-	layer_set_visible("buttons",false);
-	layer_set_visible("AIStatLevel", false);
+if (global.inCombat) {
+	if (global.playerLives <= 0 || array_length(global.playerHand) == 0) {
+	    // Player loses
+		layer_set_visible("buttons",false);
+		layer_set_visible("AIStatLevel", false);
     
-    if (oPopup != noone) {
-        oPopup.image_index = 2;
-    }
-	global.inCombat = false;
-} else if (global.aiLives <= 0 || array_length(global.aiHand) == 0) {
-    // AI loses
-	layer_set_visible("buttons",false);
-	layer_set_visible("AIStatLevel", false);
+	    if (oPopup != noone) {
+	        oPopup.image_index = 2;
+	    }
+		global.inCombat = false;
+	} else if (global.aiLives <= 0 || array_length(global.aiHand) == 0) {
+	    // AI loses
+		layer_set_visible("buttons",false);
+		layer_set_visible("AIStatLevel", false);
 
-    if (oPopup != noone) {
-        oPopup.image_index = 1;
-    }
-	instance_create_depth(736,480,-100,oMoneyReward);
-	instance_create_depth(1088,480,-100,oRepairReward);
-	global.inCombat = false;
+	    if (oPopup != noone) {
+	        oPopup.image_index = 1;
+	    }
+		instance_create_depth(736,480,-100,oMoneyReward);
+		instance_create_depth(1088,480,-100,oRepairReward);
+		global.inCombat = false;
+	}
 }
 
+
+
+
 if (!global.inCombat) {
-	layer_destroy_instances("Buttons")
+	layer_destroy_instances("Buttons");
 	if (!increasedMapLevel){
 		increasedMapLevel = true;
 		global.mapLevel += 1;
