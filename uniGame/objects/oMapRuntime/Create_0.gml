@@ -9,5 +9,6 @@ global.playerHand = [];
 global.aiHand = [];
 global.inCombat = false;
 global.playerTurn = false;
-
+global.ownHaywire = false;
+global.ownReshuffle = false;
 global.mapLevel = 1;

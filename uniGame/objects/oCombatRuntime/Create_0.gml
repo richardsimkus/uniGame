@@ -14,3 +14,11 @@ dealCards();
 
 increasedMapLevel = false;
 increasedMoney = false;
+
+if (global.ownReshuffle){
+	instance_create_layer(672,991,"Buttons",oReshuffleCombat);
+}
+
+if (global.ownHaywire){
+	instance_create_layer(1072,991,"Buttons",oHaywireCombat);
+}
