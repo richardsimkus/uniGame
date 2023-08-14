@@ -1,2 +1,4 @@
-/// Create Event (oHaywireShop)
+if (global.ownHaywire) {
+	sprite_index = sHaywireItemSOLD;
+}
 mouse_over_item = false; // Variable to track if the mouse is over the object
