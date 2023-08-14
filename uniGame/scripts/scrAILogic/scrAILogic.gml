@@ -1,6 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function aiPlayTurn(){
+function aiPlayTurn(pickLowest){
 	
 	stats = ["size_stat", "smarts_stat", "speech_stat", "speed_stat", "strength_stat"];
 	
@@ -19,13 +19,26 @@ function aiPlayTurn(){
 	
 	chosenStat = "size_stat";
 	
+	if (pickLowest) {
+	for  (stat = 0; stat < array_length(stats); stat++;){
+		if (cardStats[$ stats[stat]] < cardStats[$ chosenStat]){
+		chosenStat = stats[stat];
+		show_debug_message("new chosen stat {0}",chosenStat);
+		}
+		
+	}
+	
+	} else {
 	for  (stat = 0; stat < array_length(stats); stat++;){
 		if (cardStats[$ stats[stat]] > cardStats[$ chosenStat]){
 		chosenStat = stats[stat];
 		show_debug_message("new chosen stat {0}",chosenStat);
 		}
 		
+	}	
 	}
+	
+	
 	
 	
 	global.aiThinkTimer = room_speed * 2;

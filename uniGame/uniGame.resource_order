@@ -153,6 +153,7 @@
     {"name":"sCardSpace","order":11,"path":"sprites/sCardSpace/sCardSpace.yy",},
     {"name":"sRepairReward","order":17,"path":"sprites/sRepairReward/sRepairReward.yy",},
     {"name":"sLevel1","order":1,"path":"sprites/sLevel1/sLevel1.yy",},
+    {"name":"oAIHealth","order":7,"path":"objects/oAIHealth/oAIHealth.yy",},
     {"name":"mClickMenu","order":1,"path":"sounds/mClickMenu/mClickMenu.yy",},
     {"name":"oSmartsAI","order":3,"path":"objects/oSmartsAI/oSmartsAI.yy",},
     {"name":"dealCards","order":4,"path":"scripts/dealCards/dealCards.yy",},

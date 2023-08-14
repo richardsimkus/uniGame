@@ -196,6 +196,7 @@
     {"id":{"name":"sRepairReward","path":"sprites/sRepairReward/sRepairReward.yy",},},
     {"id":{"name":"sLevel1","path":"sprites/sLevel1/sLevel1.yy",},},
     {"id":{"name":"oContinue","path":"objects/oContinue/oContinue.yy",},},
+    {"id":{"name":"oAIHealth","path":"objects/oAIHealth/oAIHealth.yy",},},
     {"id":{"name":"oLevel1Btn","path":"objects/oLevel1Btn/oLevel1Btn.yy",},},
     {"id":{"name":"mClickMenu","path":"sounds/mClickMenu/mClickMenu.yy",},},
     {"id":{"name":"oSmartsAI","path":"objects/oSmartsAI/oSmartsAI.yy",},},
