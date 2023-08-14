@@ -71,6 +71,7 @@
     {"name":"sqFadeIn","order":1,"path":"sequences/sqFadeIn/sqFadeIn.yy",},
     {"name":"fMainFont","order":1,"path":"fonts/fMainFont/fMainFont.yy",},
     {"name":"oCreditMenu","order":2,"path":"objects/oCreditMenu/oCreditMenu.yy",},
+    {"name":"fCardCount","order":4,"path":"fonts/fCardCount/fCardCount.yy",},
     {"name":"sCredits","order":4,"path":"sprites/sCredits/sCredits.yy",},
     {"name":"oCard5","order":4,"path":"objects/oCard5/oCard5.yy",},
     {"name":"Sprite18","order":2,"path":"sprites/Sprite18/Sprite18.yy",},

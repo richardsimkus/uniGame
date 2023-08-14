@@ -58,7 +58,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.6.0.89",
+    "IDEVersion": "2023.6.0.92",
   },
   "resources": [
     {"id":{"name":"mClickStat","path":"sounds/mClickStat/mClickStat.yy",},},
@@ -93,6 +93,7 @@
     {"id":{"name":"sqFadeIn","path":"sequences/sqFadeIn/sqFadeIn.yy",},},
     {"id":{"name":"fMainFont","path":"fonts/fMainFont/fMainFont.yy",},},
     {"id":{"name":"oCreditMenu","path":"objects/oCreditMenu/oCreditMenu.yy",},},
+    {"id":{"name":"fCardCount","path":"fonts/fCardCount/fCardCount.yy",},},
     {"id":{"name":"mBackground","path":"sounds/mBackground/mBackground.yy",},},
     {"id":{"name":"sCredits","path":"sprites/sCredits/sCredits.yy",},},
     {"id":{"name":"oCard5","path":"objects/oCard5/oCard5.yy",},},

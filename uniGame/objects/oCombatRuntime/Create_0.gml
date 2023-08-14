@@ -12,7 +12,4 @@ global.aiThinkTimer = room_speed * 2;
 buildDeck(); // Calls script to populate the deck
 dealCards();
 
-
-
-
 increasedMapLevel = false;
