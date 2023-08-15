@@ -9,3 +9,15 @@ if (global.mapLevel == 2) {
 	x=710
 	y=86
 }
+if (global.mapLevel == 3) {
+	x=710
+	y=86
+}
+if (global.mapLevel == 4) {
+	x=710
+	y=86
+}
+if (global.mapLevel == 5) {
+	x=710
+	y=86
+}
