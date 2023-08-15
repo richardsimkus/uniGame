@@ -10,14 +10,14 @@ if (global.mapLevel == 2) {
 	y=86
 }
 if (global.mapLevel == 3) {
-	x=710
-	y=86
+	x=1216
+	y=160
 }
 if (global.mapLevel == 4) {
-	x=710
-	y=86
+	x=1120
+	y=640
 }
 if (global.mapLevel == 5) {
-	x=710
-	y=86
+	x=1440
+	y=544
 }
