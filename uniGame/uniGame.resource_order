@@ -78,6 +78,7 @@
     {"name":"fMainFont","order":1,"path":"fonts/fMainFont/fMainFont.yy",},
     {"name":"oCreditMenu","order":2,"path":"objects/oCreditMenu/oCreditMenu.yy",},
     {"name":"sHaywireItem","order":1,"path":"sprites/sHaywireItem/sHaywireItem.yy",},
+    {"name":"fCardCount","order":4,"path":"fonts/fCardCount/fCardCount.yy",},
     {"name":"sCredits","order":4,"path":"sprites/sCredits/sCredits.yy",},
     {"name":"oCard5","order":4,"path":"objects/oCard5/oCard5.yy",},
     {"name":"oReshuffleShop","order":1,"path":"objects/oReshuffleShop/oReshuffleShop.yy",},

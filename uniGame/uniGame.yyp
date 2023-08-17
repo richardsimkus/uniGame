@@ -3,236 +3,764 @@
   "resourceVersion": "1.7",
   "name": "uniGame",
   "AudioGroups": [
-    {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
+    {
+      "resourceType": "GMAudioGroup",
+      "resourceVersion": "1.3",
+      "name": "audiogroup_default",
+      "targets": -1
+    }
   ],
   "configs": {
     "children": [],
-    "name": "Default",
+    "name": "Default"
   },
   "defaultScriptType": 1,
   "Folders": [
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Backgrounds","folderPath":"folders/Backgrounds.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Extensions","folderPath":"folders/Extensions.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Fonts","folderPath":"folders/Fonts.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Notes","folderPath":"folders/Notes.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/Objects.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"cards","folderPath":"folders/Objects/cards.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"GUI","folderPath":"folders/Objects/GUI.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"AIbtns","folderPath":"folders/Objects/GUI/AIbtns.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"In game","folderPath":"folders/Objects/GUI/In game.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rewards","folderPath":"folders/Objects/GUI/In game/Rewards.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"PlayerBtns","folderPath":"folders/Objects/GUI/PlayerBtns.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"mainMenu","folderPath":"folders/Objects/mainMenu.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"mainOptions","folderPath":"folders/Objects/mainMenu/mainOptions.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"settings","folderPath":"folders/Objects/mainMenu/settings.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"map","folderPath":"folders/Objects/map.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"shop","folderPath":"folders/Objects/shop.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"StatValues","folderPath":"folders/Objects/StatValues.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"AI","folderPath":"folders/Objects/StatValues/AI.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Player","folderPath":"folders/Objects/StatValues/Player.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Paths","folderPath":"folders/Paths.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Rooms.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Levels","folderPath":"folders/Rooms/Levels.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"LevelSelect","folderPath":"folders/Rooms/LevelSelect.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Menu","folderPath":"folders/Rooms/Menu.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Scripts","folderPath":"folders/Scripts.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Card game","folderPath":"folders/Scripts/Card game.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Settings","folderPath":"folders/Scripts/Settings.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sequences","folderPath":"folders/Sequences.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Transitions","folderPath":"folders/Sequences/Transitions.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Shaders","folderPath":"folders/Shaders.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sounds","folderPath":"folders/Sounds.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"cards","folderPath":"folders/Sprites/cards.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"GUI","folderPath":"folders/Sprites/GUI.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Health","folderPath":"folders/Sprites/Health.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"mainMenu","folderPath":"folders/Sprites/mainMenu.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Backgrounds","folderPath":"folders/Sprites/mainMenu/Backgrounds.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Clickables","folderPath":"folders/Sprites/mainMenu/Clickables.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Settings","folderPath":"folders/Sprites/mainMenu/Settings.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Map","folderPath":"folders/Sprites/Map.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Other","folderPath":"folders/Sprites/Other.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Shop","folderPath":"folders/Sprites/Shop.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
+    {
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "Animation Curves",
+      "folderPath": "folders/Animation Curves.yy"
+    },
+    {
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "Backgrounds",
+      "folderPath": "folders/Backgrounds.yy"
+    },
+    {
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "Extensions",
+      "folderPath": "folders/Extensions.yy"
+    },
+    {
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "Fonts",
+      "folderPath": "folders/Fonts.yy"
+    },
+    {
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "Notes",
+      "folderPath": "folders/Notes.yy"
+    },
+    {
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "Objects",
+      "folderPath": "folders/Objects.yy"
+    },
+    {
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "cards",
+      "folderPath": "folders/Objects/cards.yy"
+    },
+    {
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "GUI",
+      "folderPath": "folders/Objects/GUI.yy"
+    },
+    {
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "AIbtns",
+      "folderPath": "folders/Objects/GUI/AIbtns.yy"
+    },
+    {
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "In game",
+      "folderPath": "folders/Objects/GUI/In game.yy"
+    },
+    {
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "Rewards",
+      "folderPath": "folders/Objects/GUI/In game/Rewards.yy"
+    },
+    {
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "PlayerBtns",
+      "folderPath": "folders/Objects/GUI/PlayerBtns.yy"
+    },
+    {
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "mainMenu",
+      "folderPath": "folders/Objects/mainMenu.yy"
+    },
+    {
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "mainOptions",
+      "folderPath": "folders/Objects/mainMenu/mainOptions.yy"
+    },
+    {
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "settings",
+      "folderPath": "folders/Objects/mainMenu/settings.yy"
+    },
+    {
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "map",
+      "folderPath": "folders/Objects/map.yy"
+    },
+    {
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "shop",
+      "folderPath": "folders/Objects/shop.yy"
+    },
+    {
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "StatValues",
+      "folderPath": "folders/Objects/StatValues.yy"
+    },
+    {
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "AI",
+      "folderPath": "folders/Objects/StatValues/AI.yy"
+    },
+    {
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "Player",
+      "folderPath": "folders/Objects/StatValues/Player.yy"
+    },
+    {
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "Paths",
+      "folderPath": "folders/Paths.yy"
+    },
+    {
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "Rooms",
+      "folderPath": "folders/Rooms.yy"
+    },
+    {
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "Levels",
+      "folderPath": "folders/Rooms/Levels.yy"
+    },
+    {
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "LevelSelect",
+      "folderPath": "folders/Rooms/LevelSelect.yy"
+    },
+    {
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "Menu",
+      "folderPath": "folders/Rooms/Menu.yy"
+    },
+    {
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "Scripts",
+      "folderPath": "folders/Scripts.yy"
+    },
+    {
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "Card game",
+      "folderPath": "folders/Scripts/Card game.yy"
+    },
+    {
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "Settings",
+      "folderPath": "folders/Scripts/Settings.yy"
+    },
+    {
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "Sequences",
+      "folderPath": "folders/Sequences.yy"
+    },
+    {
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "Transitions",
+      "folderPath": "folders/Sequences/Transitions.yy"
+    },
+    {
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "Shaders",
+      "folderPath": "folders/Shaders.yy"
+    },
+    {
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "Sounds",
+      "folderPath": "folders/Sounds.yy"
+    },
+    {
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "Sprites",
+      "folderPath": "folders/Sprites.yy"
+    },
+    {
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "cards",
+      "folderPath": "folders/Sprites/cards.yy"
+    },
+    {
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "GUI",
+      "folderPath": "folders/Sprites/GUI.yy"
+    },
+    {
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "Health",
+      "folderPath": "folders/Sprites/Health.yy"
+    },
+    {
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "mainMenu",
+      "folderPath": "folders/Sprites/mainMenu.yy"
+    },
+    {
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "Backgrounds",
+      "folderPath": "folders/Sprites/mainMenu/Backgrounds.yy"
+    },
+    {
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "Clickables",
+      "folderPath": "folders/Sprites/mainMenu/Clickables.yy"
+    },
+    {
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "Settings",
+      "folderPath": "folders/Sprites/mainMenu/Settings.yy"
+    },
+    {
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "Map",
+      "folderPath": "folders/Sprites/Map.yy"
+    },
+    {
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "Other",
+      "folderPath": "folders/Sprites/Other.yy"
+    },
+    {
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "Shop",
+      "folderPath": "folders/Sprites/Shop.yy"
+    },
+    {
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "Tile Sets",
+      "folderPath": "folders/Tile Sets.yy"
+    },
+    {
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "Timelines",
+      "folderPath": "folders/Timelines.yy"
+    }
   ],
   "IncludedFiles": [],
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.6.0.89",
+    "IDEVersion": "2023.6.0.92"
   },
   "resources": [
-    {"id":{"name":"mClickStat","path":"sounds/mClickStat/mClickStat.yy",},},
-    {"id":{"name":"oHaywireShop","path":"objects/oHaywireShop/oHaywireShop.yy",},},
-    {"id":{"name":"sprCard3","path":"sprites/sprCard3/sprCard3.yy",},},
-    {"id":{"name":"sprCard8","path":"sprites/sprCard8/sprCard8.yy",},},
-    {"id":{"name":"oPlayerCardArea","path":"objects/oPlayerCardArea/oPlayerCardArea.yy",},},
-    {"id":{"name":"sPixel","path":"sprites/sPixel/sPixel.yy",},},
-    {"id":{"name":"bLevel2","path":"sprites/bLevel2/bLevel2.yy",},},
-    {"id":{"name":"oBtn5AI","path":"objects/oBtn5AI/oBtn5AI.yy",},},
-    {"id":{"name":"oSpeedAI","path":"objects/oSpeedAI/oSpeedAI.yy",},},
-    {"id":{"name":"rTitleScreen","path":"rooms/rTitleScreen/rTitleScreen.yy",},},
-    {"id":{"name":"oBtn4AI","path":"objects/oBtn4AI/oBtn4AI.yy",},},
-    {"id":{"name":"sBtn3","path":"sprites/sBtn3/sBtn3.yy",},},
-    {"id":{"name":"shuffleDeck","path":"scripts/shuffleDeck/shuffleDeck.yy",},},
-    {"id":{"name":"oReshuffleCombat","path":"objects/oReshuffleCombat/oReshuffleCombat.yy",},},
-    {"id":{"name":"sSettings","path":"sprites/sSettings/sSettings.yy",},},
-    {"id":{"name":"sBtn1","path":"sprites/sBtn1/sBtn1.yy",},},
-    {"id":{"name":"oSize","path":"objects/oSize/oSize.yy",},},
-    {"id":{"name":"sLevel4","path":"sprites/sLevel4/sLevel4.yy",},},
-    {"id":{"name":"sPopUp","path":"sprites/sPopUp/sPopUp.yy",},},
-    {"id":{"name":"oNewGame","path":"objects/oNewGame/oNewGame.yy",},},
-    {"id":{"name":"sprCard10","path":"sprites/sprCard10/sprCard10.yy",},},
-    {"id":{"name":"sShop","path":"sprites/sShop/sShop.yy",},},
-    {"id":{"name":"oStrength","path":"objects/oStrength/oStrength.yy",},},
-    {"id":{"name":"oReturnToMenu","path":"objects/oReturnToMenu/oReturnToMenu.yy",},},
-    {"id":{"name":"oMusic","path":"objects/oMusic/oMusic.yy",},},
-    {"id":{"name":"oExit","path":"objects/oExit/oExit.yy",},},
-    {"id":{"name":"sToolTip","path":"sprites/sToolTip/sToolTip.yy",},},
-    {"id":{"name":"sprCard1","path":"sprites/sprCard1/sprCard1.yy",},},
-    {"id":{"name":"oPopup","path":"objects/oPopup/oPopup.yy",},},
-    {"id":{"name":"oLevel2Btn","path":"objects/oLevel2Btn/oLevel2Btn.yy",},},
-    {"id":{"name":"rCreditScreen","path":"rooms/rCreditScreen/rCreditScreen.yy",},},
-    {"id":{"name":"buildDeck","path":"scripts/buildDeck/buildDeck.yy",},},
-    {"id":{"name":"oLevel5Btn","path":"objects/oLevel5Btn/oLevel5Btn.yy",},},
-    {"id":{"name":"sqFadeIn","path":"sequences/sqFadeIn/sqFadeIn.yy",},},
-    {"id":{"name":"fMainFont","path":"fonts/fMainFont/fMainFont.yy",},},
-    {"id":{"name":"oCreditMenu","path":"objects/oCreditMenu/oCreditMenu.yy",},},
-    {"id":{"name":"sHaywireItem","path":"sprites/sHaywireItem/sHaywireItem.yy",},},
-    {"id":{"name":"mBackground","path":"sounds/mBackground/mBackground.yy",},},
-    {"id":{"name":"sCredits","path":"sprites/sCredits/sCredits.yy",},},
-    {"id":{"name":"oCard5","path":"objects/oCard5/oCard5.yy",},},
-    {"id":{"name":"Sprite18","path":"sprites/Sprite18/Sprite18.yy",},},
-    {"id":{"name":"oReshuffleShop","path":"objects/oReshuffleShop/oReshuffleShop.yy",},},
-    {"id":{"name":"oStrengthAI","path":"objects/oStrengthAI/oStrengthAI.yy",},},
-    {"id":{"name":"rWorldMap","path":"rooms/rWorldMap/rWorldMap.yy",},},
-    {"id":{"name":"bLevel1","path":"sprites/bLevel1/bLevel1.yy",},},
-    {"id":{"name":"oMapRuntime","path":"objects/oMapRuntime/oMapRuntime.yy",},},
-    {"id":{"name":"fMainFontLarge","path":"fonts/fMainFontLarge/fMainFontLarge.yy",},},
-    {"id":{"name":"sqFadeOut","path":"sequences/sqFadeOut/sqFadeOut.yy",},},
-    {"id":{"name":"oSpeedButton","path":"objects/oSpeedButton/oSpeedButton.yy",},},
-    {"id":{"name":"sRewardsPopUp","path":"sprites/sRewardsPopUp/sRewardsPopUp.yy",},},
-    {"id":{"name":"fPlayerName","path":"fonts/fPlayerName/fPlayerName.yy",},},
-    {"id":{"name":"sLevel5","path":"sprites/sLevel5/sLevel5.yy",},},
-    {"id":{"name":"sWorldMap","path":"sprites/sWorldMap/sWorldMap.yy",},},
-    {"id":{"name":"oBtn2AI","path":"objects/oBtn2AI/oBtn2AI.yy",},},
-    {"id":{"name":"bLevel5","path":"sprites/bLevel5/bLevel5.yy",},},
-    {"id":{"name":"sReshuffleItemSOLD","path":"sprites/sReshuffleItemSOLD/sReshuffleItemSOLD.yy",},},
-    {"id":{"name":"sShopIcon","path":"sprites/sShopIcon/sShopIcon.yy",},},
-    {"id":{"name":"sprCard9","path":"sprites/sprCard9/sprCard9.yy",},},
-    {"id":{"name":"oControls","path":"objects/oControls/oControls.yy",},},
-    {"id":{"name":"oCombatRuntime","path":"objects/oCombatRuntime/oCombatRuntime.yy",},},
-    {"id":{"name":"sTitleScreenBGround","path":"sprites/sTitleScreenBGround/sTitleScreenBGround.yy",},},
-    {"id":{"name":"sprCard7","path":"sprites/sprCard7/sprCard7.yy",},},
-    {"id":{"name":"oEnemyCardArea","path":"objects/oEnemyCardArea/oEnemyCardArea.yy",},},
-    {"id":{"name":"sAbort","path":"sprites/sAbort/sAbort.yy",},},
-    {"id":{"name":"oSizeButton","path":"objects/oSizeButton/oSizeButton.yy",},},
-    {"id":{"name":"sProfileBox","path":"sprites/sProfileBox/sProfileBox.yy",},},
-    {"id":{"name":"scrTurnManagement","path":"scripts/scrTurnManagement/scrTurnManagement.yy",},},
-    {"id":{"name":"oPlayerHealth","path":"objects/oPlayerHealth/oPlayerHealth.yy",},},
-    {"id":{"name":"oSpeech","path":"objects/oSpeech/oSpeech.yy",},},
-    {"id":{"name":"oSpeechButton","path":"objects/oSpeechButton/oSpeechButton.yy",},},
-    {"id":{"name":"oCard7","path":"objects/oCard7/oCard7.yy",},},
-    {"id":{"name":"sLevel2","path":"sprites/sLevel2/sLevel2.yy",},},
-    {"id":{"name":"oCredits","path":"objects/oCredits/oCredits.yy",},},
-    {"id":{"name":"sHowToPlay","path":"sprites/sHowToPlay/sHowToPlay.yy",},},
-    {"id":{"name":"sSpaceManRight","path":"sprites/sSpaceManRight/sSpaceManRight.yy",},},
-    {"id":{"name":"sNewGame","path":"sprites/sNewGame/sNewGame.yy",},},
-    {"id":{"name":"sLevel3","path":"sprites/sLevel3/sLevel3.yy",},},
-    {"id":{"name":"oTitleScreen","path":"objects/oTitleScreen/oTitleScreen.yy",},},
-    {"id":{"name":"rLevel2","path":"rooms/rLevel2/rLevel2.yy",},},
-    {"id":{"name":"sHaywireItemSOLD","path":"sprites/sHaywireItemSOLD/sHaywireItemSOLD.yy",},},
-    {"id":{"name":"oSpeed","path":"objects/oSpeed/oSpeed.yy",},},
-    {"id":{"name":"oHaywireCombat","path":"objects/oHaywireCombat/oHaywireCombat.yy",},},
-    {"id":{"name":"sBtn5","path":"sprites/sBtn5/sBtn5.yy",},},
-    {"id":{"name":"oCard6","path":"objects/oCard6/oCard6.yy",},},
-    {"id":{"name":"scrTransition","path":"scripts/scrTransition/scrTransition.yy",},},
-    {"id":{"name":"oHowToPlay","path":"objects/oHowToPlay/oHowToPlay.yy",},},
-    {"id":{"name":"oRepairReward","path":"objects/oRepairReward/oRepairReward.yy",},},
-    {"id":{"name":"oReturnToMap","path":"objects/oReturnToMap/oReturnToMap.yy",},},
-    {"id":{"name":"rShop","path":"rooms/rShop/rShop.yy",},},
-    {"id":{"name":"oCardback","path":"objects/oCardback/oCardback.yy",},},
-    {"id":{"name":"rLevel3","path":"rooms/rLevel3/rLevel3.yy",},},
-    {"id":{"name":"oCard4","path":"objects/oCard4/oCard4.yy",},},
-    {"id":{"name":"scrAILogic","path":"scripts/scrAILogic/scrAILogic.yy",},},
-    {"id":{"name":"oSpeechAI","path":"objects/oSpeechAI/oSpeechAI.yy",},},
-    {"id":{"name":"oMoneyReward","path":"objects/oMoneyReward/oMoneyReward.yy",},},
-    {"id":{"name":"sSettingsBackground","path":"sprites/sSettingsBackground/sSettingsBackground.yy",},},
-    {"id":{"name":"oCursor","path":"objects/oCursor/oCursor.yy",},},
-    {"id":{"name":"bLevel4","path":"sprites/bLevel4/bLevel4.yy",},},
-    {"id":{"name":"oCard3","path":"objects/oCard3/oCard3.yy",},},
-    {"id":{"name":"oTurnPrompt","path":"objects/oTurnPrompt/oTurnPrompt.yy",},},
-    {"id":{"name":"sprCard5","path":"sprites/sprCard5/sprCard5.yy",},},
-    {"id":{"name":"oCard2","path":"objects/oCard2/oCard2.yy",},},
-    {"id":{"name":"oCard10","path":"objects/oCard10/oCard10.yy",},},
-    {"id":{"name":"mExplosion","path":"sounds/mExplosion/mExplosion.yy",},},
-    {"id":{"name":"oSettings","path":"objects/oSettings/oSettings.yy",},},
-    {"id":{"name":"oLevel3Btn","path":"objects/oLevel3Btn/oLevel3Btn.yy",},},
-    {"id":{"name":"oBtn1AI","path":"objects/oBtn1AI/oBtn1AI.yy",},},
-    {"id":{"name":"oSmartsButton","path":"objects/oSmartsButton/oSmartsButton.yy",},},
-    {"id":{"name":"oSpaceMan","path":"objects/oSpaceMan/oSpaceMan.yy",},},
-    {"id":{"name":"oSmarts","path":"objects/oSmarts/oSmarts.yy",},},
-    {"id":{"name":"sprCard4","path":"sprites/sprCard4/sprCard4.yy",},},
-    {"id":{"name":"sprCard2","path":"sprites/sprCard2/sprCard2.yy",},},
-    {"id":{"name":"oCard9","path":"objects/oCard9/oCard9.yy",},},
-    {"id":{"name":"addCard","path":"scripts/addCard/addCard.yy",},},
-    {"id":{"name":"sCardBack","path":"sprites/sCardBack/sCardBack.yy",},},
-    {"id":{"name":"rLevel1","path":"rooms/rLevel1/rLevel1.yy",},},
-    {"id":{"name":"sAIHealth","path":"sprites/sAIHealth/sAIHealth.yy",},},
-    {"id":{"name":"sControls","path":"sprites/sControls/sControls.yy",},},
-    {"id":{"name":"bLevel3","path":"sprites/bLevel3/bLevel3.yy",},},
-    {"id":{"name":"oCard8","path":"objects/oCard8/oCard8.yy",},},
-    {"id":{"name":"sBackground","path":"sprites/sBackground/sBackground.yy",},},
-    {"id":{"name":"bMenuBackground","path":"sprites/bMenuBackground/bMenuBackground.yy",},},
-    {"id":{"name":"Object49","path":"objects/Object49/Object49.yy",},},
-    {"id":{"name":"oBtn3AI","path":"objects/oBtn3AI/oBtn3AI.yy",},},
-    {"id":{"name":"rSettingsMenu","path":"rooms/rSettingsMenu/rSettingsMenu.yy",},},
-    {"id":{"name":"sprStatsAlignment","path":"sprites/sprStatsAlignment/sprStatsAlignment.yy",},},
-    {"id":{"name":"sBtn2","path":"sprites/sBtn2/sBtn2.yy",},},
-    {"id":{"name":"sExit","path":"sprites/sExit/sExit.yy",},},
-    {"id":{"name":"acMoveRightMap","path":"animcurves/acMoveRightMap/acMoveRightMap.yy",},},
-    {"id":{"name":"sContinue","path":"sprites/sContinue/sContinue.yy",},},
-    {"id":{"name":"oEnterShop","path":"objects/oEnterShop/oEnterShop.yy",},},
-    {"id":{"name":"sTurn","path":"sprites/sTurn/sTurn.yy",},},
-    {"id":{"name":"sCardSpace","path":"sprites/sCardSpace/sCardSpace.yy",},},
-    {"id":{"name":"sReshuffleItem","path":"sprites/sReshuffleItem/sReshuffleItem.yy",},},
-    {"id":{"name":"sPlayerHealth","path":"sprites/sPlayerHealth/sPlayerHealth.yy",},},
-    {"id":{"name":"rLevel5","path":"rooms/rLevel5/rLevel5.yy",},},
-    {"id":{"name":"sRepairReward","path":"sprites/sRepairReward/sRepairReward.yy",},},
-    {"id":{"name":"sLevel1","path":"sprites/sLevel1/sLevel1.yy",},},
-    {"id":{"name":"oContinue","path":"objects/oContinue/oContinue.yy",},},
-    {"id":{"name":"oAIHealth","path":"objects/oAIHealth/oAIHealth.yy",},},
-    {"id":{"name":"oLevel1Btn","path":"objects/oLevel1Btn/oLevel1Btn.yy",},},
-    {"id":{"name":"mClickMenu","path":"sounds/mClickMenu/mClickMenu.yy",},},
-    {"id":{"name":"oSmartsAI","path":"objects/oSmartsAI/oSmartsAI.yy",},},
-    {"id":{"name":"oCard1","path":"objects/oCard1/oCard1.yy",},},
-    {"id":{"name":"oSizeAI","path":"objects/oSizeAI/oSizeAI.yy",},},
-    {"id":{"name":"dealCards","path":"scripts/dealCards/dealCards.yy",},},
-    {"id":{"name":"sMoneyReward","path":"sprites/sMoneyReward/sMoneyReward.yy",},},
-    {"id":{"name":"sprCard6","path":"sprites/sprCard6/sprCard6.yy",},},
-    {"id":{"name":"oStrengthButton","path":"objects/oStrengthButton/oStrengthButton.yy",},},
-    {"id":{"name":"rLevel4","path":"rooms/rLevel4/rLevel4.yy",},},
-    {"id":{"name":"sBtn4","path":"sprites/sBtn4/sBtn4.yy",},},
-    {"id":{"name":"oLevel4Btn","path":"objects/oLevel4Btn/oLevel4Btn.yy",},},
-    {"id":{"name":"sCursor","path":"sprites/sCursor/sCursor.yy",},},
-    {"id":{"name":"rMainMenu","path":"rooms/rMainMenu/rMainMenu.yy",},},
+    {
+      "id": { "name": "mClickStat", "path": "sounds/mClickStat/mClickStat.yy" }
+    },
+    {
+      "id": {
+        "name": "oHaywireShop",
+        "path": "objects/oHaywireShop/oHaywireShop.yy"
+      }
+    },
+    { "id": { "name": "sprCard3", "path": "sprites/sprCard3/sprCard3.yy" } },
+    { "id": { "name": "sprCard8", "path": "sprites/sprCard8/sprCard8.yy" } },
+    {
+      "id": {
+        "name": "oPlayerCardArea",
+        "path": "objects/oPlayerCardArea/oPlayerCardArea.yy"
+      }
+    },
+    { "id": { "name": "sPixel", "path": "sprites/sPixel/sPixel.yy" } },
+    { "id": { "name": "bLevel2", "path": "sprites/bLevel2/bLevel2.yy" } },
+    { "id": { "name": "oBtn5AI", "path": "objects/oBtn5AI/oBtn5AI.yy" } },
+    { "id": { "name": "oSpeedAI", "path": "objects/oSpeedAI/oSpeedAI.yy" } },
+    {
+      "id": {
+        "name": "rTitleScreen",
+        "path": "rooms/rTitleScreen/rTitleScreen.yy"
+      }
+    },
+    { "id": { "name": "oBtn4AI", "path": "objects/oBtn4AI/oBtn4AI.yy" } },
+    { "id": { "name": "sBtn3", "path": "sprites/sBtn3/sBtn3.yy" } },
+    {
+      "id": {
+        "name": "shuffleDeck",
+        "path": "scripts/shuffleDeck/shuffleDeck.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "oReshuffleCombat",
+        "path": "objects/oReshuffleCombat/oReshuffleCombat.yy"
+      }
+    },
+    { "id": { "name": "sSettings", "path": "sprites/sSettings/sSettings.yy" } },
+    { "id": { "name": "sBtn1", "path": "sprites/sBtn1/sBtn1.yy" } },
+    { "id": { "name": "oSize", "path": "objects/oSize/oSize.yy" } },
+    { "id": { "name": "sLevel4", "path": "sprites/sLevel4/sLevel4.yy" } },
+    { "id": { "name": "sPopUp", "path": "sprites/sPopUp/sPopUp.yy" } },
+    { "id": { "name": "oNewGame", "path": "objects/oNewGame/oNewGame.yy" } },
+    { "id": { "name": "sprCard10", "path": "sprites/sprCard10/sprCard10.yy" } },
+    { "id": { "name": "sShop", "path": "sprites/sShop/sShop.yy" } },
+    { "id": { "name": "oStrength", "path": "objects/oStrength/oStrength.yy" } },
+    {
+      "id": {
+        "name": "oReturnToMenu",
+        "path": "objects/oReturnToMenu/oReturnToMenu.yy"
+      }
+    },
+    { "id": { "name": "oMusic", "path": "objects/oMusic/oMusic.yy" } },
+    { "id": { "name": "oExit", "path": "objects/oExit/oExit.yy" } },
+    { "id": { "name": "sToolTip", "path": "sprites/sToolTip/sToolTip.yy" } },
+    { "id": { "name": "sprCard1", "path": "sprites/sprCard1/sprCard1.yy" } },
+    { "id": { "name": "oPopup", "path": "objects/oPopup/oPopup.yy" } },
+    {
+      "id": { "name": "oLevel2Btn", "path": "objects/oLevel2Btn/oLevel2Btn.yy" }
+    },
+    {
+      "id": {
+        "name": "rCreditScreen",
+        "path": "rooms/rCreditScreen/rCreditScreen.yy"
+      }
+    },
+    { "id": { "name": "buildDeck", "path": "scripts/buildDeck/buildDeck.yy" } },
+    {
+      "id": { "name": "oLevel5Btn", "path": "objects/oLevel5Btn/oLevel5Btn.yy" }
+    },
+    { "id": { "name": "sqFadeIn", "path": "sequences/sqFadeIn/sqFadeIn.yy" } },
+    { "id": { "name": "fMainFont", "path": "fonts/fMainFont/fMainFont.yy" } },
+    {
+      "id": {
+        "name": "oCreditMenu",
+        "path": "objects/oCreditMenu/oCreditMenu.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "sHaywireItem",
+        "path": "sprites/sHaywireItem/sHaywireItem.yy"
+      }
+    },
+    {
+      "id": { "name": "fCardCount", "path": "fonts/fCardCount/fCardCount.yy" }
+    },
+    {
+      "id": {
+        "name": "mBackground",
+        "path": "sounds/mBackground/mBackground.yy"
+      }
+    },
+    { "id": { "name": "sCredits", "path": "sprites/sCredits/sCredits.yy" } },
+    { "id": { "name": "oCard5", "path": "objects/oCard5/oCard5.yy" } },
+    { "id": { "name": "Sprite18", "path": "sprites/Sprite18/Sprite18.yy" } },
+    {
+      "id": {
+        "name": "oReshuffleShop",
+        "path": "objects/oReshuffleShop/oReshuffleShop.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "oStrengthAI",
+        "path": "objects/oStrengthAI/oStrengthAI.yy"
+      }
+    },
+    { "id": { "name": "rWorldMap", "path": "rooms/rWorldMap/rWorldMap.yy" } },
+    { "id": { "name": "bLevel1", "path": "sprites/bLevel1/bLevel1.yy" } },
+    {
+      "id": {
+        "name": "oMapRuntime",
+        "path": "objects/oMapRuntime/oMapRuntime.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "fMainFontLarge",
+        "path": "fonts/fMainFontLarge/fMainFontLarge.yy"
+      }
+    },
+    {
+      "id": { "name": "sqFadeOut", "path": "sequences/sqFadeOut/sqFadeOut.yy" }
+    },
+    {
+      "id": {
+        "name": "oSpeedButton",
+        "path": "objects/oSpeedButton/oSpeedButton.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "sRewardsPopUp",
+        "path": "sprites/sRewardsPopUp/sRewardsPopUp.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "fPlayerName",
+        "path": "fonts/fPlayerName/fPlayerName.yy"
+      }
+    },
+    { "id": { "name": "sLevel5", "path": "sprites/sLevel5/sLevel5.yy" } },
+    { "id": { "name": "sWorldMap", "path": "sprites/sWorldMap/sWorldMap.yy" } },
+    { "id": { "name": "oBtn2AI", "path": "objects/oBtn2AI/oBtn2AI.yy" } },
+    { "id": { "name": "bLevel5", "path": "sprites/bLevel5/bLevel5.yy" } },
+    {
+      "id": {
+        "name": "sReshuffleItemSOLD",
+        "path": "sprites/sReshuffleItemSOLD/sReshuffleItemSOLD.yy"
+      }
+    },
+    { "id": { "name": "sShopIcon", "path": "sprites/sShopIcon/sShopIcon.yy" } },
+    { "id": { "name": "sprCard9", "path": "sprites/sprCard9/sprCard9.yy" } },
+    { "id": { "name": "oControls", "path": "objects/oControls/oControls.yy" } },
+    {
+      "id": {
+        "name": "oCombatRuntime",
+        "path": "objects/oCombatRuntime/oCombatRuntime.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "sTitleScreenBGround",
+        "path": "sprites/sTitleScreenBGround/sTitleScreenBGround.yy"
+      }
+    },
+    { "id": { "name": "sprCard7", "path": "sprites/sprCard7/sprCard7.yy" } },
+    {
+      "id": {
+        "name": "oEnemyCardArea",
+        "path": "objects/oEnemyCardArea/oEnemyCardArea.yy"
+      }
+    },
+    { "id": { "name": "sAbort", "path": "sprites/sAbort/sAbort.yy" } },
+    {
+      "id": {
+        "name": "oSizeButton",
+        "path": "objects/oSizeButton/oSizeButton.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "sProfileBox",
+        "path": "sprites/sProfileBox/sProfileBox.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scrTurnManagement",
+        "path": "scripts/scrTurnManagement/scrTurnManagement.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "oPlayerHealth",
+        "path": "objects/oPlayerHealth/oPlayerHealth.yy"
+      }
+    },
+    { "id": { "name": "oSpeech", "path": "objects/oSpeech/oSpeech.yy" } },
+    {
+      "id": {
+        "name": "oSpeechButton",
+        "path": "objects/oSpeechButton/oSpeechButton.yy"
+      }
+    },
+    { "id": { "name": "oCard7", "path": "objects/oCard7/oCard7.yy" } },
+    { "id": { "name": "sLevel2", "path": "sprites/sLevel2/sLevel2.yy" } },
+    { "id": { "name": "oCredits", "path": "objects/oCredits/oCredits.yy" } },
+    {
+      "id": { "name": "sHowToPlay", "path": "sprites/sHowToPlay/sHowToPlay.yy" }
+    },
+    {
+      "id": {
+        "name": "sSpaceManRight",
+        "path": "sprites/sSpaceManRight/sSpaceManRight.yy"
+      }
+    },
+    { "id": { "name": "sNewGame", "path": "sprites/sNewGame/sNewGame.yy" } },
+    { "id": { "name": "sLevel3", "path": "sprites/sLevel3/sLevel3.yy" } },
+    {
+      "id": {
+        "name": "oTitleScreen",
+        "path": "objects/oTitleScreen/oTitleScreen.yy"
+      }
+    },
+    { "id": { "name": "rLevel2", "path": "rooms/rLevel2/rLevel2.yy" } },
+    {
+      "id": {
+        "name": "sHaywireItemSOLD",
+        "path": "sprites/sHaywireItemSOLD/sHaywireItemSOLD.yy"
+      }
+    },
+    { "id": { "name": "oSpeed", "path": "objects/oSpeed/oSpeed.yy" } },
+    {
+      "id": {
+        "name": "oHaywireCombat",
+        "path": "objects/oHaywireCombat/oHaywireCombat.yy"
+      }
+    },
+    { "id": { "name": "sBtn5", "path": "sprites/sBtn5/sBtn5.yy" } },
+    { "id": { "name": "oCard6", "path": "objects/oCard6/oCard6.yy" } },
+    {
+      "id": {
+        "name": "scrTransition",
+        "path": "scripts/scrTransition/scrTransition.yy"
+      }
+    },
+    {
+      "id": { "name": "oHowToPlay", "path": "objects/oHowToPlay/oHowToPlay.yy" }
+    },
+    {
+      "id": {
+        "name": "oRepairReward",
+        "path": "objects/oRepairReward/oRepairReward.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "oReturnToMap",
+        "path": "objects/oReturnToMap/oReturnToMap.yy"
+      }
+    },
+    { "id": { "name": "rShop", "path": "rooms/rShop/rShop.yy" } },
+    { "id": { "name": "oCardback", "path": "objects/oCardback/oCardback.yy" } },
+    { "id": { "name": "rLevel3", "path": "rooms/rLevel3/rLevel3.yy" } },
+    { "id": { "name": "oCard4", "path": "objects/oCard4/oCard4.yy" } },
+    {
+      "id": { "name": "scrAILogic", "path": "scripts/scrAILogic/scrAILogic.yy" }
+    },
+    { "id": { "name": "oSpeechAI", "path": "objects/oSpeechAI/oSpeechAI.yy" } },
+    {
+      "id": {
+        "name": "oMoneyReward",
+        "path": "objects/oMoneyReward/oMoneyReward.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "sSettingsBackground",
+        "path": "sprites/sSettingsBackground/sSettingsBackground.yy"
+      }
+    },
+    { "id": { "name": "oCursor", "path": "objects/oCursor/oCursor.yy" } },
+    { "id": { "name": "bLevel4", "path": "sprites/bLevel4/bLevel4.yy" } },
+    { "id": { "name": "oCard3", "path": "objects/oCard3/oCard3.yy" } },
+    {
+      "id": {
+        "name": "oTurnPrompt",
+        "path": "objects/oTurnPrompt/oTurnPrompt.yy"
+      }
+    },
+    { "id": { "name": "sprCard5", "path": "sprites/sprCard5/sprCard5.yy" } },
+    { "id": { "name": "oCard2", "path": "objects/oCard2/oCard2.yy" } },
+    { "id": { "name": "oCard10", "path": "objects/oCard10/oCard10.yy" } },
+    {
+      "id": { "name": "mExplosion", "path": "sounds/mExplosion/mExplosion.yy" }
+    },
+    { "id": { "name": "oSettings", "path": "objects/oSettings/oSettings.yy" } },
+    {
+      "id": { "name": "oLevel3Btn", "path": "objects/oLevel3Btn/oLevel3Btn.yy" }
+    },
+    { "id": { "name": "oBtn1AI", "path": "objects/oBtn1AI/oBtn1AI.yy" } },
+    {
+      "id": {
+        "name": "oSmartsButton",
+        "path": "objects/oSmartsButton/oSmartsButton.yy"
+      }
+    },
+    { "id": { "name": "oSpaceMan", "path": "objects/oSpaceMan/oSpaceMan.yy" } },
+    { "id": { "name": "oSmarts", "path": "objects/oSmarts/oSmarts.yy" } },
+    { "id": { "name": "sprCard4", "path": "sprites/sprCard4/sprCard4.yy" } },
+    { "id": { "name": "sprCard2", "path": "sprites/sprCard2/sprCard2.yy" } },
+    { "id": { "name": "oCard9", "path": "objects/oCard9/oCard9.yy" } },
+    { "id": { "name": "addCard", "path": "scripts/addCard/addCard.yy" } },
+    { "id": { "name": "sCardBack", "path": "sprites/sCardBack/sCardBack.yy" } },
+    { "id": { "name": "rLevel1", "path": "rooms/rLevel1/rLevel1.yy" } },
+    { "id": { "name": "sAIHealth", "path": "sprites/sAIHealth/sAIHealth.yy" } },
+    { "id": { "name": "sControls", "path": "sprites/sControls/sControls.yy" } },
+    { "id": { "name": "bLevel3", "path": "sprites/bLevel3/bLevel3.yy" } },
+    { "id": { "name": "oCard8", "path": "objects/oCard8/oCard8.yy" } },
+    {
+      "id": {
+        "name": "sBackground",
+        "path": "sprites/sBackground/sBackground.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "bMenuBackground",
+        "path": "sprites/bMenuBackground/bMenuBackground.yy"
+      }
+    },
+    { "id": { "name": "Object49", "path": "objects/Object49/Object49.yy" } },
+    { "id": { "name": "oBtn3AI", "path": "objects/oBtn3AI/oBtn3AI.yy" } },
+    {
+      "id": {
+        "name": "rSettingsMenu",
+        "path": "rooms/rSettingsMenu/rSettingsMenu.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "sprStatsAlignment",
+        "path": "sprites/sprStatsAlignment/sprStatsAlignment.yy"
+      }
+    },
+    { "id": { "name": "sBtn2", "path": "sprites/sBtn2/sBtn2.yy" } },
+    { "id": { "name": "sExit", "path": "sprites/sExit/sExit.yy" } },
+    {
+      "id": {
+        "name": "acMoveRightMap",
+        "path": "animcurves/acMoveRightMap/acMoveRightMap.yy"
+      }
+    },
+    { "id": { "name": "sContinue", "path": "sprites/sContinue/sContinue.yy" } },
+    {
+      "id": { "name": "oEnterShop", "path": "objects/oEnterShop/oEnterShop.yy" }
+    },
+    { "id": { "name": "sTurn", "path": "sprites/sTurn/sTurn.yy" } },
+    {
+      "id": { "name": "sCardSpace", "path": "sprites/sCardSpace/sCardSpace.yy" }
+    },
+    {
+      "id": {
+        "name": "sReshuffleItem",
+        "path": "sprites/sReshuffleItem/sReshuffleItem.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "sPlayerHealth",
+        "path": "sprites/sPlayerHealth/sPlayerHealth.yy"
+      }
+    },
+    { "id": { "name": "rLevel5", "path": "rooms/rLevel5/rLevel5.yy" } },
+    {
+      "id": {
+        "name": "sRepairReward",
+        "path": "sprites/sRepairReward/sRepairReward.yy"
+      }
+    },
+    { "id": { "name": "sLevel1", "path": "sprites/sLevel1/sLevel1.yy" } },
+    { "id": { "name": "oContinue", "path": "objects/oContinue/oContinue.yy" } },
+    { "id": { "name": "oAIHealth", "path": "objects/oAIHealth/oAIHealth.yy" } },
+    {
+      "id": { "name": "oLevel1Btn", "path": "objects/oLevel1Btn/oLevel1Btn.yy" }
+    },
+    {
+      "id": { "name": "mClickMenu", "path": "sounds/mClickMenu/mClickMenu.yy" }
+    },
+    { "id": { "name": "oSmartsAI", "path": "objects/oSmartsAI/oSmartsAI.yy" } },
+    { "id": { "name": "oCard1", "path": "objects/oCard1/oCard1.yy" } },
+    { "id": { "name": "oSizeAI", "path": "objects/oSizeAI/oSizeAI.yy" } },
+    { "id": { "name": "dealCards", "path": "scripts/dealCards/dealCards.yy" } },
+    {
+      "id": {
+        "name": "sMoneyReward",
+        "path": "sprites/sMoneyReward/sMoneyReward.yy"
+      }
+    },
+    { "id": { "name": "sprCard6", "path": "sprites/sprCard6/sprCard6.yy" } },
+    {
+      "id": {
+        "name": "oStrengthButton",
+        "path": "objects/oStrengthButton/oStrengthButton.yy"
+      }
+    },
+    { "id": { "name": "rLevel4", "path": "rooms/rLevel4/rLevel4.yy" } },
+    { "id": { "name": "sBtn4", "path": "sprites/sBtn4/sBtn4.yy" } },
+    {
+      "id": { "name": "oLevel4Btn", "path": "objects/oLevel4Btn/oLevel4Btn.yy" }
+    },
+    { "id": { "name": "sCursor", "path": "sprites/sCursor/sCursor.yy" } },
+    { "id": { "name": "rMainMenu", "path": "rooms/rMainMenu/rMainMenu.yy" } }
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"rMainMenu","path":"rooms/rMainMenu/rMainMenu.yy",},},
-    {"roomId":{"name":"rWorldMap","path":"rooms/rWorldMap/rWorldMap.yy",},},
-    {"roomId":{"name":"rLevel1","path":"rooms/rLevel1/rLevel1.yy",},},
-    {"roomId":{"name":"rTitleScreen","path":"rooms/rTitleScreen/rTitleScreen.yy",},},
-    {"roomId":{"name":"rSettingsMenu","path":"rooms/rSettingsMenu/rSettingsMenu.yy",},},
-    {"roomId":{"name":"rCreditScreen","path":"rooms/rCreditScreen/rCreditScreen.yy",},},
-    {"roomId":{"name":"rShop","path":"rooms/rShop/rShop.yy",},},
-    {"roomId":{"name":"rLevel2","path":"rooms/rLevel2/rLevel2.yy",},},
-    {"roomId":{"name":"rLevel3","path":"rooms/rLevel3/rLevel3.yy",},},
-    {"roomId":{"name":"rLevel4","path":"rooms/rLevel4/rLevel4.yy",},},
-    {"roomId":{"name":"rLevel5","path":"rooms/rLevel5/rLevel5.yy",},},
+    {
+      "roomId": { "name": "rMainMenu", "path": "rooms/rMainMenu/rMainMenu.yy" }
+    },
+    {
+      "roomId": { "name": "rWorldMap", "path": "rooms/rWorldMap/rWorldMap.yy" }
+    },
+    { "roomId": { "name": "rLevel1", "path": "rooms/rLevel1/rLevel1.yy" } },
+    {
+      "roomId": {
+        "name": "rTitleScreen",
+        "path": "rooms/rTitleScreen/rTitleScreen.yy"
+      }
+    },
+    {
+      "roomId": {
+        "name": "rSettingsMenu",
+        "path": "rooms/rSettingsMenu/rSettingsMenu.yy"
+      }
+    },
+    {
+      "roomId": {
+        "name": "rCreditScreen",
+        "path": "rooms/rCreditScreen/rCreditScreen.yy"
+      }
+    },
+    { "roomId": { "name": "rShop", "path": "rooms/rShop/rShop.yy" } },
+    { "roomId": { "name": "rLevel2", "path": "rooms/rLevel2/rLevel2.yy" } },
+    { "roomId": { "name": "rLevel3", "path": "rooms/rLevel3/rLevel3.yy" } },
+    { "roomId": { "name": "rLevel4", "path": "rooms/rLevel4/rLevel4.yy" } },
+    { "roomId": { "name": "rLevel5", "path": "rooms/rLevel5/rLevel5.yy" } }
   ],
   "TextureGroups": [
-    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
-  ],
+    {
+      "resourceType": "GMTextureGroup",
+      "resourceVersion": "1.3",
+      "name": "Default",
+      "autocrop": true,
+      "border": 2,
+      "compressFormat": "bz2",
+      "directory": "",
+      "groupParent": null,
+      "isScaled": true,
+      "loadType": "default",
+      "mipsToGenerate": 0,
+      "targets": -1
+    }
+  ]
 }
