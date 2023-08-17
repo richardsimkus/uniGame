@@ -1,3 +1,10 @@
-global.playerMoney += 100;
+global.playerMoney += (global.mapLevel - 1) * 100;
 
-TransitionStart(rWorldMap, sqFadeOut, sqFadeIn);
+if (global.mapLevel == 6){
+	TransitionStart(rCreditScreen, sqFadeOut, sqFadeIn);
+	global.moneyText = "";
+} else {
+	TransitionStart(rWorldMap, sqFadeOut, sqFadeIn);
+	global.moneyText = $"Money: $ {global.playerMoney}";
+}
+

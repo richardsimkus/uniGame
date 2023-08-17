@@ -17,11 +17,11 @@
   "option_operagx_mod_team_id": "",
   "option_operagx_mod_team_name": "",
   "option_operagx_mod_version": "1.0.0.0",
-  "option_operagx_next_version": "1.0.0.4",
+  "option_operagx_next_version": "1.0.0.9",
   "option_operagx_publicShareUrl": "",
   "option_operagx_scale": 0,
   "option_operagx_team_id": "2b8b71b7-591a-4d03-82ee-d90a17d0fc9d",
   "option_operagx_team_name": "richking studio",
   "option_operagx_texture_page": "2048x2048",
-  "option_operagx_version": "1.0.0.3",
+  "option_operagx_version": "1.0.0.8",
 }

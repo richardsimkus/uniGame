@@ -52,7 +52,7 @@ if (global.inCombat){
 }
 
 if (!global.inCombat) {
-	layer_destroy_instances("Buttons")
+	layer_destroy_instances("Buttons");
 	if (!increasedMapLevel){
 		increasedMapLevel = true;
 		global.mapLevel += 1;
@@ -60,7 +60,7 @@ if (!global.inCombat) {
 }
 
 
-    aiHealthSprite = instance_find(oAIHealth, 0);
+    var aiHealthSprite = instance_find(oAIHealth, 0);
 
 
     if (instance_exists(aiHealthSprite)) {
