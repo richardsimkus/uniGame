@@ -1,10 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
-//if (global.playerTurn) {
-//	layer_set_visible("playerButtons",true);
-//} else {
-//	layer_set_visible("playerButtons",false);
-//}
 
 if (!global.playerTurn && global.inCombat == true){
     global.aiThinkTimer -= 1;
@@ -36,6 +29,7 @@ if (global.inCombat){
 	    if (oPopup != noone) {
 	        oPopup.image_index = 2;
 	    }
+		
 		global.inCombat = false;
 	} else if (global.aiLives <= 0 || array_length(global.aiHand) == 0) {
 	    // AI loses
@@ -49,6 +43,12 @@ if (global.inCombat){
 		instance_create_depth(1088,480,-100,oRepairReward);
 		global.inCombat = false;
 	}
+}
+
+if (mouse_check_button_pressed(mb_left) && oPopup.image_index == 2){
+	TransitionStart(rCreditScreen,sqFadeOut,sqFadeIn);
+	instance_destroy(oMapRuntime);
+	instance_destroy(oCombatRuntime);		
 }
 
 if (!global.inCombat) {
